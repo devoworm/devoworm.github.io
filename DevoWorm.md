@@ -14,16 +14,17 @@ DevoWorm is currently divided into three loosely-knit interest areas: developmen
 
 **Reproduction and Developmental Plasticity** involves utilizing an evo-devo approach to understand *Caenorhabditis elegans* more generally. Our existing datasets and papers include a focus on larval development and life-history processes. This area of the project also features primary empirical data, based on formal experimental design.
 
-Objective                                 | Examples                    
----                                       | ---
-Developmental Dynamics                    | Differentiation Trees and Maps
-Developmental Dynamics                    | Embryo Networks and Developmental Connectomes
-Developmental Dynamics                    | Time-series of Terminal Differentiation
-Cybernetics and Digital Morphogenesis     | Morphozoic (Cellular Automata)
-Cybernetics and Digital Morphogenesis     | Cybernetic Embryo
-Cybernetics and Digital Morphogenesis     | CompuCell 3D
-Reproduction and Developmental Plasticity | Experimental Evolution
-Reproduction and Developmental Plasticity | Life-history Plasticity
+Objective                                        | Examples                    
+---                                              | ---
+Developmental Dynamics (DD)                      | [Comparative Quantitative Embryogenesis](http://www.mdpi.com/2079-7737/5/3/33)
+DD                                               | [Differentiation Trees and Maps](http://www.biorxiv.org/content/early/2016/07/07/062539)
+DD                                               | [Embryo Networks and Developmental Connectomes](https://doi.org/10.1101/146035)
+DD                                               | Time-series of Terminal Differentiation
+Cybernetics and Digital Morphogenesis (C-DM)     | [Morphozoic (Cellular Automata)](https://drive.google.com/open?id=0B4qKWcILZ0ddbzJoeUZsQ0lEZ1k)
+C-DM                                             | [Cybernetic Embryo](https://www.academia.edu/33002276/Origins_of_the_Embryo_self-organization_through_cybernetic_regulation)
+C-DM                                             | CompuCell 3D
+Reproduction and Developmental Plasticity (R-DP) | [Experimental Evolution](http://rsos.royalsocietypublishing.org/content/3/11/160496)
+R-DP                                             | [Life-history Plasticity](http://www.biorxiv.org/content/early/2016/03/24/045609)
 
 ## Repos in DevoWorm Github
 
