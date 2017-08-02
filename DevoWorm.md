@@ -17,13 +17,13 @@ DevoWorm is currently divided into three loosely-knit interest areas: developmen
 Objective                                 | Examples                    
 ---                                       | ---
 Developmental Dynamics                    | Differentiation Trees and Maps
-                                          | Embryo Networks and Developmental Connectomes
-                                          | Time-series of Terminal Differentiation
+Developmental Dynamics                    | Embryo Networks and Developmental Connectomes
+Developmental Dynamics                    | Time-series of Terminal Differentiation
 Cybernetics and Digital Morphogenesis     | Morphozoic (Cellular Automata)
-                                          | Cybernetic Embryo
-                                          | CompuCell 3D
+Cybernetics and Digital Morphogenesis     | Cybernetic Embryo
+Cybernetics and Digital Morphogenesis     | CompuCell 3D
 Reproduction and Developmental Plasticity | Experimental Evolution
-                                          | Life-history Plasticity
+Reproduction and Developmental Plasticity | Life-history Plasticity
 
 ## Repos in DevoWorm Github
 
