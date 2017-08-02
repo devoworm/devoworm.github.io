@@ -2,23 +2,21 @@
 # DevoWorm
 
 The DevoWorm website is located at [devoworm.weebly.com](http://devoworm.weebly.com/). The website features links to 
-educational, academic, and collaborative opportunitied associated with the project. DevoWorm is affiliated with the 
-[OpenWorm Foundation](http://www.openworm.org/) and the [Orthogonal Research Laboratory](http://orthogonal-research.weebly.com/).
+educational, academic, media-related and collaborative opportunities associated with the project. DevoWorm is affiliated with the [OpenWorm Foundation](http://www.openworm.org/) and the [Orthogonal Research Laboratory](http://orthogonal-research.weebly.com/). We engage in Open Science, an encourage the use of Jupyter Notebooks, short video descriptions of research, and demos.
 
 ## Roadmap
 
-DevoWorm is currently divided into three loosely-knit interest areas: developmental
-dynamics, cybernetics and digital morphogenesis, and reproduction and developmental plasticity. While our main interest is in the nematode *Caenorhabditis elegans*, we are also interested in cross-species comparative work.
+DevoWorm is currently divided into three loosely-knit interest areas: developmental dynamics, cybernetics and digital morphogenesis, and reproduction and developmental plasticity. While our main interest is in the nematode *Caenorhabditis elegans*, we are also interested in cross-species comparative work.
 
-Developmental dynamics currently involves using secondary data collected from embryos along with bioinformatic and data science techniques to answer questions regarding the process of early embryogenesis and the timing of later morphogenesis. To address these problems, we have used number of innovative approaches. 
+**Developmental Dynamics** currently involves using secondary data collected from embryos along with bioinformatic and data science techniques to answer questions regarding the process of early embryogenesis and the timing of later morphogenesis. To address these problems, we have used number of innovative approaches. 
 
-Cybernetics and Digital Morphogenesis has involved using platforms such as Morphozoic (Cellular Automata) or CompuCell3D (Cellular Potts Model) to better understand physical interactions during embryogenesis and morphogenesis. We have also explored the use of cybernetic models and concepts to better understand the general process of embryogenesis.
+**Cybernetics and Digital Morphogenesis** has involved using platforms such as Morphozoic (Cellular Automata) or CompuCell3D (Cellular Potts Model) to better understand physical interactions during embryogenesis and morphogenesis. We have also explored the use of cybernetic models and concepts to better understand the general process of embryogenesis.
 
-Our work in the area of reproduction and developmental plasticity involves utilizing an evo-devo approach to understand *Caenorhabditis elegans* more generally. Our existing datasets and papers include a focus on larval development and life-history processes. This area of the project also features primary empirical data, based on formal experimental design.
+**Reproduction and Developmental Plasticity** involves utilizing an evo-devo approach to understand *Caenorhabditis elegans* more generally. Our existing datasets and papers include a focus on larval development and life-history processes. This area of the project also features primary empirical data, based on formal experimental design.
 
 Objective                                 | Examples                    
 ---                                       | ---
-Developmental Dynamics                    | Differentiation Trees and Maps                    
+Developmental Dynamics                    | Differentiation Trees and Maps
                                           | Embryo Networks and Developmental Connectomes
                                           | Time-series of Terminal Differentiation
 Cybernetics and Digital Morphogenesis     | Morphozoic (Cellular Automata)
