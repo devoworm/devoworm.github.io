@@ -13,8 +13,8 @@ Images from books and websites can be adapted for publications or other purposes
 
 Try to color-blind proof figures whenever possible. For more information, please see:
     
-     1) [Making Figures Comprehensible to Color-blind Readers](http://blogs.nature.com/nautilus/2007/02/post_4.html)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1) [Making Figures Comprehensible to Color-blind Readers](http://blogs.nature.com/nautilus/2007/02/post_4.html)
             
-     2) [Color Blindness Simulator](http://www.color-blindness.com/coblis-color-blindness-simulator/)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2) [Color Blindness Simulator](http://www.color-blindness.com/coblis-color-blindness-simulator/)
 
 Regarding the assembly of bibliographies: try to import references into an EndNote, Mendeley, or Zotero library. Dr. Richard Gordon has a set of macros for dynamic reference citation in manuscripts and other documents where references are numbered. 
