@@ -1,0 +1,36 @@
+
+**Basic Biology of _C. elegans_ References:**
+
+**1)** WormWeb, Interactive Cell Lineage: [link](http://wormweb.org/celllineage#c=E&z=1)
+
+**2)** WormBase: [link](http://www.wormbase.org/#012-34-5)
+
+**3)** WormBook: [link](http://www.wormbook.org/)
+
+**4)** VirtualWorm model: [link](http://caltech.wormbase.org/virtualworm/)
+
+**5)** Discussion of the Embryonic Cell Lineage: [link](http://www.wormatlas.org/ver1/Sulstonemblin_1983/results.html)
+
+**Papers:**
+
+**1)** Antoshechkin, I. and Sternberg, P. W. (2007). The versatile worm: genetic and genomic resources for _Caenorhabditis
+elegans_ research. Nature Reviews Genetics, 8(7), 518–532.
+
+**2)** Maduro, M.F. 2010. Cell fate specification in the _C. elegans_ embryo. Developmental Dynamics, 239(5), 1315-1329.
+
+**3)** Platzer, U. and Meinzer, H.P. 2004. Genetic networks in the early development of _Caenorhabditis elegans_. International Review of Cytology, 234, 47-100.
+
+**4)** Schnabel, R. 1996. Pattern formation: regional specification in the early _C. elegans_ embryo. Bioessays, 18(7),
+591-594.
+
+**5)** Sulston, J.E., Schierenberg, E., White, J.G., and Thomson, J.N. 1983. The embryonic cell lineage of the nematode
+_Caenorhabditis elegans_. Developmental Biology, 100(1), 64-119.
+
+**Videos:**
+
+Process of embryogenesis (multiple species): [link](https://drive.google.com/open?id=0B4qKWcILZ0ddZnVXWWF4bm1malE)
+
+
+```python
+
+```
