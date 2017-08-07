@@ -25,7 +25,7 @@ VLC media player (https://www.videolan.org/vlc/) has the ability to extract the 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;11. Click Media -> Open Video and find your video. Patiently let the whole thing play.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;12. Click Tools -> Preferences. Under “show settings”, click “all”. Under “video”, select “filters”. Uncheck “Scene video filter”. Click “Save”. This is so that VLC won’t generate thumbnails the next time you play a video.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;12. Click Tools -> Preferences. Under “show settings”, click “all”. Under “video”, select “filters”. Uncheck “Scene video filter”. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Click “Save”. This is so that VLC won’t generate thumbnails the next time you play a video.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;13. Open the folder you created earlier. The thumbnails should be there.
 
