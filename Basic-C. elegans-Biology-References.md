@@ -14,7 +14,7 @@
 **Papers:**
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**1)** Antoshechkin, I. and Sternberg, P. W. (2007). The versatile worm: genetic and genomic resources for _Caenorhabditis
-elegans_ research. Nature Reviews Genetics, 8(7), 518–532.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;elegans_ research. Nature Reviews Genetics, 8(7), 518–532.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**2)** Maduro, M.F. 2010. Cell fate specification in the _C. elegans_ embryo. Developmental Dynamics, 239(5), 1315-1329.
 
@@ -24,7 +24,7 @@ elegans_ research. Nature Reviews Genetics, 8(7), 518–532.
 591-594.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**5)** Sulston, J.E., Schierenberg, E., White, J.G., and Thomson, J.N. 1983. The embryonic cell lineage of the nematode
-_Caenorhabditis elegans_. Developmental Biology, 100(1), 64-119.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_Caenorhabditis elegans_. Developmental Biology, 100(1), 64-119.
 
 **Videos:**
 
