@@ -18,7 +18,7 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**2)** Maduro, M.F. 2010. Cell fate specification in the _C. elegans_ embryo. Developmental Dynamics, 239(5), 1315-1329.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**3)** Platzer, U. and Meinzer, H.P. 2004. Genetic networks in the early development of _Caenorhabditis elegans_. International Review of Cytology, 234, 47-100.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**3)** Platzer, U. and Meinzer, H.P. 2004. Genetic networks in the early development of _Caenorhabditis elegans_. International &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Review of Cytology, 234, 47-100.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**4)** Schnabel, R. 1996. Pattern formation: regional specification in the early _C. elegans_ embryo. Bioessays, 18(7),
 591-594.
