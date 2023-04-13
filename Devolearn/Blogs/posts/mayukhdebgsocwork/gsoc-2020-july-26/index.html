@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en-us"><head>
+  <meta charset="utf-8">
+<meta http-equiv="content-type" content="text/html">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title itemprop="name">Training a GAN | Awesome Hugo blog</title>
+<meta property="og:title" content="Training a GAN | Awesome Hugo blog" />
+<meta name="twitter:title" content="Training a GAN | Awesome Hugo blog" />
+<meta itemprop="name" content="Training a GAN | Awesome Hugo blog" />
+<meta name="application-name" content="Training a GAN | Awesome Hugo blog" />
+<meta property="og:site_name" content="Awesome hugo blog" />
+
+<meta name="description" content="Google summer of code week 10">
+<meta itemprop="description" content="Google summer of code week 10" />
+<meta property="og:description" content="Google summer of code week 10" />
+<meta name="twitter:description" content="Google summer of code week 10" />
+
+<meta property="og:locale" content="en-us" />
+<meta name="language" content="en-us" />
+
+
+
+  <meta itemprop="image" content="https://JyothiSwaroopReddy07.github.io/" />
+  <meta property="og:image" content="https://JyothiSwaroopReddy07.github.io/" />
+  <meta name="twitter:image" content="https://JyothiSwaroopReddy07.github.io/" />
+  <meta name="twitter:image:src" content="https://JyothiSwaroopReddy07.github.io/" />
+
+
+
+
+    
+    
+    
+    
+
+    <meta property="og:type" content="article" />
+    <meta property="og:article:published_time" content=2020-07-26T00:00:00Z />
+    <meta property="article:published_time" content=2020-07-26T00:00:00Z />
+
+    
+
+    
+
+    <script defer type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "Article",
+        "headline": "Training a GAN",
+        "author": {
+        "@type": "Person",
+        "name": ""
+        },
+        "datePublished": "2020-07-26",
+        "description": "Google summer of code week 10",
+        "wordCount":  580 ,
+        "mainEntityOfPage": "True",
+        "dateModified": "2020-07-26",
+        "image": {
+        "@type": "imageObject",
+        "url": ""
+        },
+        "publisher": {
+        "@type": "Organization",
+        "name": "Awesome Hugo blog"
+        }
+    }
+    </script>
+
+  <meta name="generator" content="Hugo 0.92.2" />
+
+  
+
+  <link rel="canonical" href="https://JyothiSwaroopReddy07.github.io/posts/mayukhdebgsocwork/gsoc-2020-july-26/"><link href="/sass/main.min.0eebb6db90b4ec9f4444ef402f08421ee056025ba860df3d749a9f299d472008.css" rel="stylesheet"><link href="/code-highlight.min.706d31975fec544a864cb7f0d847a73ea55ca1df91bf495fd12a177138d807cf.css" rel="stylesheet">
+
+  
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+  <link rel="manifest" href="/images/favicon/site.webmanifest">
+  <link rel="mask-icon" href="/images/favicon/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="shortcut icon" href="/images/favicon/favicon.ico">
+  <meta name="msapplication-TileColor" content="#2b5797">
+  <meta name="msapplication-config" content="/images/favicon/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
+
+  
+  <link rel="icon" type="image/svg+xml" href="/images/favicon/favicon.svg">
+
+  
+    </head><body data-theme = "dark" class="notransition">
+<script src="https://JyothiSwaroopReddy07.github.io/js/themeLoader.min.0ea9375d525d6f19779c6d41cfaf9e166e47014d9734ff071daad3a4ff12d147.js"></script><div class="navbar" role="navigation">
+  <nav class="menu" aria-label="Main Navigation">
+    <a href="/" class="logo">
+      <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" 
+viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" 
+stroke-linejoin="round" class="feather feather-home">
+<title>Home</title>
+<path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+<polyline points="9 22 9 12 15 12 15 22"></polyline>
+</svg>
+    </a>
+    <input type="checkbox" id="menu-trigger" class="menu-trigger" />
+    <label for="menu-trigger">
+      <span class="menu-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" stroke="currentColor" fill="none" viewBox="0 0 14 14"><title>Menu</title><path stroke-linecap="round" stroke-linejoin="round" d="M10.595 7L3.40726 7"></path><path stroke-linecap="round" stroke-linejoin="round" d="M10.5096 3.51488L3.49301 3.51488"></path><path stroke-linecap="round" stroke-linejoin="round" d="M10.5096 10.4851H3.49301"></path><path stroke-linecap="round" stroke-linejoin="round" d="M0.5 12.5V1.5C0.5 0.947715 0.947715 0.5 1.5 0.5H12.5C13.0523 0.5 13.5 0.947715 13.5 1.5V12.5C13.5 13.0523 13.0523 13.5 12.5 13.5H1.5C0.947715 13.5 0.5 13.0523 0.5 12.5Z"></path></svg>
+      </span>
+    </label>
+
+    <div class="trigger">
+      <ul class="trigger-container">
+        
+        
+          <li>
+            <a 
+            class="menu-link "
+            href="/">
+            Home
+            </a>
+            
+          </li>
+        
+          <li>
+            <a 
+            class="menu-link active"
+            href="/posts/">
+            Posts
+            </a>
+            
+          </li>
+        
+          <li>
+            <a 
+            class="menu-link "
+            href="/about/">
+            About
+            </a>
+            
+          </li>
+        
+        <li class="menu-separator">
+          <span>|</span>
+        </li>
+      </ul>
+      <a id="mode" href="#">
+        <svg xmlns="http://www.w3.org/2000/svg" class="mode-sunny" width="21" height="21" viewBox="0 0 14 14" stroke-width="1">
+<title>LIGHT</title><g><circle cx="7" cy="7" r="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></circle><line x1="7" y1="0.5" x2="7" y2="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="2.4" y1="2.4" x2="3.82" y2="3.82" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="0.5" y1="7" x2="2.5" y2="7" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="2.4" y1="11.6" x2="3.82" y2="10.18" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="7" y1="13.5" x2="7" y2="11.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="11.6" y1="11.6" x2="10.18" y2="10.18" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="13.5" y1="7" x2="11.5" y2="7" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="11.6" y1="2.4" x2="10.18" y2="3.82" fill="none" stroke-linecap="round" stroke-linejoin="round"></line></g></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" class="mode-moon" width="21" height="21" viewBox="0 0 14 14" stroke-width="1">
+<title>DARK</title><g><circle cx="7" cy="7" r="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></circle><line x1="7" y1="0.5" x2="7" y2="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="2.4" y1="2.4" x2="3.82" y2="3.82" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="0.5" y1="7" x2="2.5" y2="7" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="2.4" y1="11.6" x2="3.82" y2="10.18" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="7" y1="13.5" x2="7" y2="11.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="11.6" y1="11.6" x2="10.18" y2="10.18" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="13.5" y1="7" x2="11.5" y2="7" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="11.6" y1="2.4" x2="10.18" y2="3.82" fill="none" stroke-linecap="round" stroke-linejoin="round"></line></g></svg>
+      </a>
+    </div>
+  </nav>
+</div>
+
+<div class="wrapper post">
+    <main class="page-content" aria-label="Content">
+        <article>
+            <header class="header">
+                <h1 class="header-title">Training a GAN</h1>
+                
+                <div class="post-meta">
+                    <time datetime="2020-07-26T00:00:00&#43;00:00" itemprop="datePublished"> Jul 26, 2020 </time>
+                </div>
+            </header>
+            <div class="page-content">
+                <figure><img src="https://raw.githubusercontent.com/devoworm/GSoC-2020/master/Pre-trained%20Models%20%28DevLearning%29/images/generated_embryos_3.gif" width="50%"/>
+</figure>
+
+<p>Training a GAN is an act of balance where we have to balance the generator and the discriminator in a game of losses and probabilities.</p>
+<h2 id="the-generator">The generator:</h2>
+<p>The generator, when properly trained, takes in random noise as input and returns a sample which would look very similar to the ones from the training distribution. What we&rsquo;re doing here is basically mapping points a high dimensional distribution to the training samples.</p>
+<p>While training, the generator&rsquo;s main objective is to <strong>try to fool the discriminator</strong> by generating real looking images.</p>
+<h2 id="the-discriminator">The discriminator:</h2>
+<p>The discriminator, when properly trained, would be able to take in an image as an input and return a probability as to whether the image is real or generated. This is more of a classification problem.</p>
+<p>While training, the discriminator&rsquo;s main objective is to <strong>distinguish between real and fake images</strong>.</p>
+<p>Initially when the training starts, both the models are equally bad at their jobs, but in the end pf training, the ideal scenario would be when the generator generators images in-distinguishable from the training set. While the discriminator takes in thatgenerated image and returns a probability of 0.5.</p>
+<h2 id="the-game-of-minimax">The game of minimax</h2>
+<figure><img src="https://raw.githubusercontent.com/Mayukhdeb/blog/master/content/post/images/july_26/minimax.png" width="50%"/>
+</figure>
+
+<h3 id="lets-break-down-the-equation-above-part-by-part">Let&rsquo;s break down the equation above part by part:</h3>
+<ul>
+<li>
+<p><code>x</code> is the real data</p>
+</li>
+<li>
+<p><code>z</code> is the latent vector i.e random noise. It can also be seen as a point in the latent space with n dimensions.  For example, <code>torch.randn(64, 1, 1)</code> is a point in the 64 dimensional space.</p>
+</li>
+<li>
+<p><code>D(x)</code> is the probability of the original image being real according  to the discriminator.</p>
+</li>
+<li>
+<p><code>G(z)</code> is the generated image with noise <code>z</code> as input.</p>
+</li>
+<li>
+<p><code>D(G(z))</code> is the probability of the generated image being real according to the discriminator.</p>
+</li>
+<li>
+<p><code>E</code> represents the expected value function, the expected value is also known as the expectation, mathematical expectation, mean, average, or first moment.</p>
+</li>
+</ul>
+<h3 id="so-whats-going-on-during-training-">So what&rsquo;s going on during training ?</h3>
+<p>The discriminator wants to <strong>maximize <code>D(x)</code> and minimize <code>D(G(z))</code></strong></p>
+<p>The generator wants to <strong>maximize <code>D(G(z))</code></strong> so that the discriminator gets fooled into believing that the generated image is real.</p>
+<p>The key factor to maintaining a balance between the 2 model&rsquo;s capabilities is to choose the right loss landscape.</p>
+<h2 id="the-training-loop">The training loop:</h2>
+<h3 id="1-update-discriminator--maximize-logdx--log1---dgz">1. Update discriminator : maximize <code>log(D(x)) + log(1 - D(G(z)))</code></h3>
+<blockquote>
+<p>1.1 Backprop the discriminator after feeding real images with labels as 1 (sometimes people also use noisy labels with <code>1 ± noise</code>) (trying to make <code>D(x)</code> tend towards 1)</p>
+</blockquote>
+<blockquote>
+<p>1.2 Generate fake images (<code>G(z)</code>) with the generator with random noise <code>z</code> as input.</p>
+</blockquote>
+<blockquote>
+<p>1.2 Backprop the discriminator after feeding fake images with labels as 0 (sometimes people also use noisy labels with <code>0 ± noise</code>)</p>
+</blockquote>
+<blockquote>
+<p>Note: the real and the fake batches were not mixed, first we fed the real batch, and then the fake batch.</p>
+</blockquote>
+<h3 id="2-update-generator-maximize-logdgz">2. Update generator: maximize <code>log(D(G(z)))</code></h3>
+<blockquote>
+<p>2.1 Use the discriminator&rsquo;s output on the fake images to calculate a loss with respect to 1. Since the generator&rsquo;s job is to try to make the discriminator return a 1 on fake images, the closer <code>criterion(discriminator_output, one)</code> is to zero, the better the situation is for the generator.</p>
+</blockquote>
+<p>If you&rsquo;re more into code than human sentences, here&rsquo;s a snippet</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="n">label</span><span class="o">.</span><span class="n">fill_</span><span class="p">(</span><span class="n">real_label</span><span class="p">)</span> <span class="c1"># perform another forward pass of all-fake batch through D</span>
+<span class="n">output</span> <span class="o">=</span> <span class="n">netD</span><span class="p">(</span><span class="n">fake_images</span><span class="p">)</span><span class="o">.</span><span class="n">view</span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span>
+<span class="c1"># Calculate G&#39;s loss based on this output</span>
+<span class="n">errG</span> <span class="o">=</span> <span class="n">criterion</span><span class="p">(</span><span class="n">output</span><span class="p">,</span> <span class="n">label</span><span class="p">)</span>
+<span class="c1"># Calculate gradients for G</span>
+<span class="n">errG</span><span class="o">.</span><span class="n">backward</span><span class="p">()</span>
+<span class="n">D_G_z2</span> <span class="o">=</span> <span class="n">output</span><span class="o">.</span><span class="n">mean</span><span class="p">()</span><span class="o">.</span><span class="n">item</span><span class="p">()</span>
+<span class="c1"># Update G</span>
+<span class="n">optimizerG</span><span class="o">.</span><span class="n">step</span><span class="p">()</span>
+</code></pre></div><p>If you made it this far, here&rsquo;s a gif of another model trying to make predictions on the generated images:</p>
+<figure><img src="https://raw.githubusercontent.com/devoworm/GSoC-2020/master/Pre-trained%20Models%20%28DevLearning%29/images/model_vs_GAN.gif" width="70%"/>
+</figure>
+
+
+            </div>
+        </article>
+    </main>
+</div>
+<footer class="footer">
+    <span class="footer_item"> </span>
+    &nbsp;
+
+    <div class="footer_social-icons">
+<a href="https://github.com/hugo-sid" target="_blank" rel="noopener noreferrer me" title="Github">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+    stroke-linecap="round" stroke-linejoin="round">
+    <path
+        d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+    </path>
+</svg>
+</a>
+<a href="https://twitter.com" target="_blank" rel="noopener noreferrer me" title="Twitter">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+    stroke-linecap="round" stroke-linejoin="round">
+    <path
+        d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z">
+    </path>
+</svg>
+</a>
+<a href="index.xml" target="_blank" rel="noopener noreferrer me" title="Rss">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+    stroke-linecap="round" stroke-linejoin="round">
+    <path d="M4 11a9 9 0 0 1 9 9" />
+    <path d="M4 4a16 16 0 0 1 16 16" />
+    <circle cx="5" cy="19" r="1" />
+</svg>
+</a></div>
+    <small class="footer_copyright">
+        © 2023 Sidharth R.
+        Powered by <a href="https://github.com/hugo-sid/hugo-blog-awesome" target="_blank" rel="noreferrer noopener">Hugo blog awesome</a>
+        theme on
+        <a href="https://gohugo.io" target="_blank" rel="noreferrer noopener">Hugo</a>.
+    </small>
+</footer>
+<script src="https://JyothiSwaroopReddy07.github.io/js/themeSwitchnMenu.min.f2fa3aed078bf5a7b612bf5548ddd0cb9891199ed24b5b673465df221e70bf4c.js"></script></body>
+</html>

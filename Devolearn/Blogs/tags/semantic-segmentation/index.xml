@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>semantic segmentation on Awesome Hugo blog</title>
+    <link>https://JyothiSwaroopReddy07.github.io/tags/semantic-segmentation/</link>
+    <description>Recent content in semantic segmentation on Awesome Hugo blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 21 Jun 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://JyothiSwaroopReddy07.github.io/tags/semantic-segmentation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Training the segmentation model</title>
+      <link>https://JyothiSwaroopReddy07.github.io/posts/mayukhdebgsocwork/gsoc-2020-june-21/</link>
+      <pubDate>Sun, 21 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://JyothiSwaroopReddy07.github.io/posts/mayukhdebgsocwork/gsoc-2020-june-21/</guid>
+      <description>Google Summer of Code | Coding period week 3</description>
+    </item>
+    
+    <item>
+      <title>PCA and semantic segmentation</title>
+      <link>https://JyothiSwaroopReddy07.github.io/posts/mayukhdebgsocwork/gsoc-2020-june-14/</link>
+      <pubDate>Thu, 11 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://JyothiSwaroopReddy07.github.io/posts/mayukhdebgsocwork/gsoc-2020-june-14/</guid>
+      <description>Google Summer of Code | Coding period week 2</description>
+    </item>
+    
+  </channel>
+</rss>

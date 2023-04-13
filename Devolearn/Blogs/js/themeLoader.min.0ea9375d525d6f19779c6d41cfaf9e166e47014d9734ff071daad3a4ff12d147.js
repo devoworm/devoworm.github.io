@@ -1,0 +1,1 @@
+const body=document.body,data=body.getAttribute("data-theme"),initTheme=a=>{a==="dark"?body.setAttribute("data-theme","dark"):a==="light"?body.removeAttribute("data-theme"):localStorage.setItem("theme",data)};initTheme(localStorage.getItem("theme")),setTimeout(()=>body.classList.remove("notransition"),75)
