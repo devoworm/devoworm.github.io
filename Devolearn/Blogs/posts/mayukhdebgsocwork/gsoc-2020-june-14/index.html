@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en-us"><head>
+  <meta charset="utf-8">
+<meta http-equiv="content-type" content="text/html">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title itemprop="name">PCA and semantic segmentation | Awesome Hugo blog</title>
+<meta property="og:title" content="PCA and semantic segmentation | Awesome Hugo blog" />
+<meta name="twitter:title" content="PCA and semantic segmentation | Awesome Hugo blog" />
+<meta itemprop="name" content="PCA and semantic segmentation | Awesome Hugo blog" />
+<meta name="application-name" content="PCA and semantic segmentation | Awesome Hugo blog" />
+<meta property="og:site_name" content="Awesome hugo blog" />
+
+<meta name="description" content="Google summer of code week 5">
+<meta itemprop="description" content="Google summer of code week 5" />
+<meta property="og:description" content="Google summer of code week 5" />
+<meta name="twitter:description" content="Google summer of code week 5" />
+
+<meta property="og:locale" content="en-us" />
+<meta name="language" content="en-us" />
+
+
+
+  <meta itemprop="image" content="https://JyothiSwaroopReddy07.github.io/" />
+  <meta property="og:image" content="https://JyothiSwaroopReddy07.github.io/" />
+  <meta name="twitter:image" content="https://JyothiSwaroopReddy07.github.io/" />
+  <meta name="twitter:image:src" content="https://JyothiSwaroopReddy07.github.io/" />
+
+
+
+
+    
+    
+    
+    
+
+    <meta property="og:type" content="article" />
+    <meta property="og:article:published_time" content=2020-06-11T00:00:00Z />
+    <meta property="article:published_time" content=2020-06-11T00:00:00Z />
+
+    
+
+    
+
+    <script defer type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "Article",
+        "headline": "PCA and semantic segmentation",
+        "author": {
+        "@type": "Person",
+        "name": ""
+        },
+        "datePublished": "2020-06-11",
+        "description": "Google summer of code week 5",
+        "wordCount":  339 ,
+        "mainEntityOfPage": "True",
+        "dateModified": "2020-06-11",
+        "image": {
+        "@type": "imageObject",
+        "url": ""
+        },
+        "publisher": {
+        "@type": "Organization",
+        "name": "Awesome Hugo blog"
+        }
+    }
+    </script>
+
+  <meta name="generator" content="Hugo 0.92.2" />
+
+  
+
+  <link rel="canonical" href="https://JyothiSwaroopReddy07.github.io/posts/mayukhdebgsocwork/gsoc-2020-june-14/"><link href="/sass/main.min.0eebb6db90b4ec9f4444ef402f08421ee056025ba860df3d749a9f299d472008.css" rel="stylesheet"><link href="/code-highlight.min.706d31975fec544a864cb7f0d847a73ea55ca1df91bf495fd12a177138d807cf.css" rel="stylesheet">
+
+  
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+  <link rel="manifest" href="/images/favicon/site.webmanifest">
+  <link rel="mask-icon" href="/images/favicon/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="shortcut icon" href="/images/favicon/favicon.ico">
+  <meta name="msapplication-TileColor" content="#2b5797">
+  <meta name="msapplication-config" content="/images/favicon/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
+
+  
+  <link rel="icon" type="image/svg+xml" href="/images/favicon/favicon.svg">
+
+  
+    </head><body data-theme = "dark" class="notransition">
+<script src="https://JyothiSwaroopReddy07.github.io/js/themeLoader.min.0ea9375d525d6f19779c6d41cfaf9e166e47014d9734ff071daad3a4ff12d147.js"></script><div class="navbar" role="navigation">
+  <nav class="menu" aria-label="Main Navigation">
+    <a href="/" class="logo">
+      <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" 
+viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" 
+stroke-linejoin="round" class="feather feather-home">
+<title>Home</title>
+<path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+<polyline points="9 22 9 12 15 12 15 22"></polyline>
+</svg>
+    </a>
+    <input type="checkbox" id="menu-trigger" class="menu-trigger" />
+    <label for="menu-trigger">
+      <span class="menu-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" stroke="currentColor" fill="none" viewBox="0 0 14 14"><title>Menu</title><path stroke-linecap="round" stroke-linejoin="round" d="M10.595 7L3.40726 7"></path><path stroke-linecap="round" stroke-linejoin="round" d="M10.5096 3.51488L3.49301 3.51488"></path><path stroke-linecap="round" stroke-linejoin="round" d="M10.5096 10.4851H3.49301"></path><path stroke-linecap="round" stroke-linejoin="round" d="M0.5 12.5V1.5C0.5 0.947715 0.947715 0.5 1.5 0.5H12.5C13.0523 0.5 13.5 0.947715 13.5 1.5V12.5C13.5 13.0523 13.0523 13.5 12.5 13.5H1.5C0.947715 13.5 0.5 13.0523 0.5 12.5Z"></path></svg>
+      </span>
+    </label>
+
+    <div class="trigger">
+      <ul class="trigger-container">
+        
+        
+          <li>
+            <a 
+            class="menu-link "
+            href="/">
+            Home
+            </a>
+            
+          </li>
+        
+          <li>
+            <a 
+            class="menu-link active"
+            href="/posts/">
+            Posts
+            </a>
+            
+          </li>
+        
+          <li>
+            <a 
+            class="menu-link "
+            href="/about/">
+            About
+            </a>
+            
+          </li>
+        
+        <li class="menu-separator">
+          <span>|</span>
+        </li>
+      </ul>
+      <a id="mode" href="#">
+        <svg xmlns="http://www.w3.org/2000/svg" class="mode-sunny" width="21" height="21" viewBox="0 0 14 14" stroke-width="1">
+<title>LIGHT</title><g><circle cx="7" cy="7" r="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></circle><line x1="7" y1="0.5" x2="7" y2="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="2.4" y1="2.4" x2="3.82" y2="3.82" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="0.5" y1="7" x2="2.5" y2="7" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="2.4" y1="11.6" x2="3.82" y2="10.18" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="7" y1="13.5" x2="7" y2="11.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="11.6" y1="11.6" x2="10.18" y2="10.18" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="13.5" y1="7" x2="11.5" y2="7" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="11.6" y1="2.4" x2="10.18" y2="3.82" fill="none" stroke-linecap="round" stroke-linejoin="round"></line></g></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" class="mode-moon" width="21" height="21" viewBox="0 0 14 14" stroke-width="1">
+<title>DARK</title><g><circle cx="7" cy="7" r="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></circle><line x1="7" y1="0.5" x2="7" y2="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="2.4" y1="2.4" x2="3.82" y2="3.82" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="0.5" y1="7" x2="2.5" y2="7" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="2.4" y1="11.6" x2="3.82" y2="10.18" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="7" y1="13.5" x2="7" y2="11.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="11.6" y1="11.6" x2="10.18" y2="10.18" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="13.5" y1="7" x2="11.5" y2="7" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="11.6" y1="2.4" x2="10.18" y2="3.82" fill="none" stroke-linecap="round" stroke-linejoin="round"></line></g></svg>
+      </a>
+    </div>
+  </nav>
+</div>
+
+<div class="wrapper post">
+    <main class="page-content" aria-label="Content">
+        <article>
+            <header class="header">
+                <h1 class="header-title">PCA and semantic segmentation</h1>
+                
+                <div class="post-meta">
+                    <time datetime="2020-06-11T00:00:00&#43;00:00" itemprop="datePublished"> Jun 11, 2020 </time>
+                </div>
+            </header>
+            <div class="page-content">
+                <p>Week 2 has been the most satisfying week in GSoC yet, with a lot of things getting done. Let&rsquo;s have a look at them one at a time:</p>
+<h2 id="starting-out-with-semantic-segmentationhttpsnbviewerjupyterorggithubdevowormgsoc-2020treemasterpre-trained20models2028devlearning29notebooksembryo_segmentation"><a href="https://nbviewer.jupyter.org/github/devoworm/GSoC-2020/tree/master/Pre-trained%20Models%20%28DevLearning%29/notebooks/embryo_segmentation/">Starting out with semantic segmentation</a></h2>
+<p>This is one of the primary objectives of my GSoC project, and it&rsquo;s about time that I started working on it.</p>
+<p>The primary data source would be the <a href="https://www.wormimage.org/">WormImage Database</a>, and the objective is to train a model which can segment out the nuclei from the  image of an embryo of the C. elegans worm.</p>
+<p>The problem is that there&rsquo;s no labelled segmentation data, only raw images. But I&rsquo;ve been trying to figure out a way through it, which involves:</p>
+<ol>
+<li>Taking an original image and manually drawing over the desired parts which are to be extracted. I had to come up with a <a href="https://nbviewer.jupyter.org/github/devoworm/GSoC-2020/blob/master/Pre-trained%20Models%20(DevLearning)/notebooks/embryo_segmentation/drawing_tool_for_manual_labelling.ipynb">simple drawing tool</a> which could be used to generate the training masks.</li>
+</ol>
+<figure><img src="https://raw.githubusercontent.com/Mayukhdeb/blog/master/content/post/images/june_14/drawing.png" width="60%"/>
+</figure>
+
+<ol start="2">
+<li>Run both the original image and the mask through a heavy (but practical) <a href="https://nbviewer.jupyter.org/github/devoworm/GSoC-2020/blob/master/Pre-trained%20Models%20%28DevLearning%29/notebooks/embryo_segmentation/augmentation_prototyping.ipynb">image augmentation pipeline</a> (generate at least 50 images from one)</li>
+</ol>
+<figure><img src="https://raw.githubusercontent.com/Mayukhdeb/blog/master/content/post/images/june_14/augment.png" width="60%"/>
+</figure>
+
+<ol start="3">
+<li>Repeat steps 1 and 2 for a few images to get a larger dataset to train on.</li>
+</ol>
+<p>I already did steps 1 and 2 on one such image of an embryo and generated a few augmented samples as seen above.</p>
+<h2 id="principal-component-analysis-on-embryo-metadatahttpsnbviewerjupyterorggithubdevowormgsoc-2020blobmasterpre-trained20models2028devlearning29notebooksembryo_analysisprincipal_component_analysisipynb"><a href="https://nbviewer.jupyter.org/github/devoworm/GSoC-2020/blob/master/Pre-trained%20Models%20%28DevLearning%29/notebooks/embryo_analysis/principal_component_analysis.ipynb">Principal component analysis on embryo metadata</a></h2>
+<p>This is where I used some tools like:</p>
+<ul>
+<li>
+<p><code>StandardScaler().fit_transform(x)</code> standardizes the features by removing the mean and scaling them to unit variance. In simpler words, it will transform the data such that its distribution will have a mean value 0 and standard deviation of 1.</p>
+</li>
+<li>
+<p><code>sklearn.decomposition.PCA(n_components = 2)</code> helped in decomposing the 4 dimensional data ( <code>x</code>, <code>y</code>, <code>size</code> and <code>time</code>) into a 2 dimensional space while conserving as much information as possible.</p>
+</li>
+</ul>
+<p>Even though 100% of the information from the 4D space could not be projected into the 2 principal components, it gave us a good idea on how cells with similar (or same) lineage ancestors lied closer to each other in the 2D space composed of the 2 principal components.</p>
+<figure><img src="https://raw.githubusercontent.com/Mayukhdeb/blog/master/content/post/images/june_14/PCA.png" width="60%"/>
+</figure>
+
+
+            </div>
+        </article>
+    </main>
+</div>
+<footer class="footer">
+    <span class="footer_item"> </span>
+    &nbsp;
+
+    <div class="footer_social-icons">
+<a href="https://github.com/hugo-sid" target="_blank" rel="noopener noreferrer me" title="Github">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+    stroke-linecap="round" stroke-linejoin="round">
+    <path
+        d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+    </path>
+</svg>
+</a>
+<a href="https://twitter.com" target="_blank" rel="noopener noreferrer me" title="Twitter">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+    stroke-linecap="round" stroke-linejoin="round">
+    <path
+        d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z">
+    </path>
+</svg>
+</a>
+<a href="index.xml" target="_blank" rel="noopener noreferrer me" title="Rss">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+    stroke-linecap="round" stroke-linejoin="round">
+    <path d="M4 11a9 9 0 0 1 9 9" />
+    <path d="M4 4a16 16 0 0 1 16 16" />
+    <circle cx="5" cy="19" r="1" />
+</svg>
+</a></div>
+    <small class="footer_copyright">
+        © 2023 Sidharth R.
+        Powered by <a href="https://github.com/hugo-sid/hugo-blog-awesome" target="_blank" rel="noreferrer noopener">Hugo blog awesome</a>
+        theme on
+        <a href="https://gohugo.io" target="_blank" rel="noreferrer noopener">Hugo</a>.
+    </small>
+</footer>
+<script src="https://JyothiSwaroopReddy07.github.io/js/themeSwitchnMenu.min.f2fa3aed078bf5a7b612bf5548ddd0cb9891199ed24b5b673465df221e70bf4c.js"></script></body>
+</html>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>computer vision on Awesome Hugo blog</title>
+    <link>https://JyothiSwaroopReddy07.github.io/tags/computer-vision/</link>
+    <description>Recent content in computer vision on Awesome Hugo blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 02 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://JyothiSwaroopReddy07.github.io/tags/computer-vision/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hello DevoLearn</title>
+      <link>https://JyothiSwaroopReddy07.github.io/posts/mayukhdebgsocwork/gsoc-2020-aug-2/</link>
+      <pubDate>Sun, 02 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://JyothiSwaroopReddy07.github.io/posts/mayukhdebgsocwork/gsoc-2020-aug-2/</guid>
+      <description>Google Summer of Code | Coding period week 9</description>
+    </item>
+    
+    <item>
+      <title>Hello DevoLearn</title>
+      <link>https://JyothiSwaroopReddy07.github.io/posts/mayukhdebgsocwork/gsoc-2020-aug-2/</link>
+      <pubDate>Sun, 02 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://JyothiSwaroopReddy07.github.io/posts/mayukhdebgsocwork/gsoc-2020-aug-2/</guid>
+      <description>Google Summer of Code | Coding period week 9</description>
+    </item>
+    
+    <item>
+      <title>Exploring the Movement Database</title>
+      <link>https://JyothiSwaroopReddy07.github.io/posts/mayukhdebgsocwork/gsoc-2020-may-24/</link>
+      <pubDate>Sun, 24 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://JyothiSwaroopReddy07.github.io/posts/mayukhdebgsocwork/gsoc-2020-may-24/</guid>
+      <description>Google Summer of Code | Community bonding period week 2</description>
+    </item>
+    
+    <item>
+      <title>Hello Openworm</title>
+      <link>https://JyothiSwaroopReddy07.github.io/posts/mayukhdebgsocwork/gsoc-2020-may-17/</link>
+      <pubDate>Sun, 17 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://JyothiSwaroopReddy07.github.io/posts/mayukhdebgsocwork/gsoc-2020-may-17/</guid>
+      <description>Google Summer of Code | Community bonding period week 1</description>
+    </item>
+    
+  </channel>
+</rss>
