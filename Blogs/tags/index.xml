@@ -2,134 +2,134 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Awesome Hugo blog</title>
-    <link>https://JyothiSwaroopReddy07.github.io/tags/</link>
+    <link>https://devoworm.github.io/Blogs/tags/</link>
     <description>Recent content in Tags on Awesome Hugo blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 16 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://JyothiSwaroopReddy07.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 16 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://devoworm.github.io/Blogs/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>GSoC</title>
-      <link>https://JyothiSwaroopReddy07.github.io/tags/gsoc/</link>
+      <link>https://devoworm.github.io/Blogs/tags/gsoc/</link>
       <pubDate>Sun, 16 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://JyothiSwaroopReddy07.github.io/tags/gsoc/</guid>
+      <guid>https://devoworm.github.io/Blogs/tags/gsoc/</guid>
       <description></description>
     </item>
     
     <item>
       <title>OpenWorm</title>
-      <link>https://JyothiSwaroopReddy07.github.io/tags/openworm/</link>
+      <link>https://devoworm.github.io/Blogs/tags/openworm/</link>
       <pubDate>Sun, 16 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://JyothiSwaroopReddy07.github.io/tags/openworm/</guid>
+      <guid>https://devoworm.github.io/Blogs/tags/openworm/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Tests</title>
-      <link>https://JyothiSwaroopReddy07.github.io/tags/tests/</link>
+      <link>https://devoworm.github.io/Blogs/tags/tests/</link>
       <pubDate>Sun, 16 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://JyothiSwaroopReddy07.github.io/tags/tests/</guid>
+      <guid>https://devoworm.github.io/Blogs/tags/tests/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Travis</title>
-      <link>https://JyothiSwaroopReddy07.github.io/tags/travis/</link>
+      <link>https://devoworm.github.io/Blogs/tags/travis/</link>
       <pubDate>Sun, 16 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://JyothiSwaroopReddy07.github.io/tags/travis/</guid>
+      <guid>https://devoworm.github.io/Blogs/tags/travis/</guid>
       <description></description>
     </item>
     
     <item>
       <title>PyPI</title>
-      <link>https://JyothiSwaroopReddy07.github.io/tags/pypi/</link>
+      <link>https://devoworm.github.io/Blogs/tags/pypi/</link>
       <pubDate>Sun, 09 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://JyothiSwaroopReddy07.github.io/tags/pypi/</guid>
+      <guid>https://devoworm.github.io/Blogs/tags/pypi/</guid>
       <description></description>
     </item>
     
     <item>
       <title>computer vision</title>
-      <link>https://JyothiSwaroopReddy07.github.io/tags/computer-vision/</link>
+      <link>https://devoworm.github.io/Blogs/tags/computer-vision/</link>
       <pubDate>Sun, 02 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://JyothiSwaroopReddy07.github.io/tags/computer-vision/</guid>
+      <guid>https://devoworm.github.io/Blogs/tags/computer-vision/</guid>
       <description></description>
     </item>
     
     <item>
       <title>deep learning</title>
-      <link>https://JyothiSwaroopReddy07.github.io/tags/deep-learning/</link>
+      <link>https://devoworm.github.io/Blogs/tags/deep-learning/</link>
       <pubDate>Sun, 02 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://JyothiSwaroopReddy07.github.io/tags/deep-learning/</guid>
+      <guid>https://devoworm.github.io/Blogs/tags/deep-learning/</guid>
       <description></description>
     </item>
     
     <item>
       <title>GAN</title>
-      <link>https://JyothiSwaroopReddy07.github.io/tags/gan/</link>
+      <link>https://devoworm.github.io/Blogs/tags/gan/</link>
       <pubDate>Sun, 02 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://JyothiSwaroopReddy07.github.io/tags/gan/</guid>
+      <guid>https://devoworm.github.io/Blogs/tags/gan/</guid>
       <description></description>
     </item>
     
     <item>
       <title>data science</title>
-      <link>https://JyothiSwaroopReddy07.github.io/tags/data-science/</link>
+      <link>https://devoworm.github.io/Blogs/tags/data-science/</link>
       <pubDate>Sun, 12 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://JyothiSwaroopReddy07.github.io/tags/data-science/</guid>
+      <guid>https://devoworm.github.io/Blogs/tags/data-science/</guid>
       <description></description>
     </item>
     
     <item>
       <title>semantic segmentation</title>
-      <link>https://JyothiSwaroopReddy07.github.io/tags/semantic-segmentation/</link>
+      <link>https://devoworm.github.io/Blogs/tags/semantic-segmentation/</link>
       <pubDate>Sun, 21 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://JyothiSwaroopReddy07.github.io/tags/semantic-segmentation/</guid>
+      <guid>https://devoworm.github.io/Blogs/tags/semantic-segmentation/</guid>
       <description></description>
     </item>
     
     <item>
       <title>PCA</title>
-      <link>https://JyothiSwaroopReddy07.github.io/tags/pca/</link>
+      <link>https://devoworm.github.io/Blogs/tags/pca/</link>
       <pubDate>Thu, 11 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://JyothiSwaroopReddy07.github.io/tags/pca/</guid>
+      <guid>https://devoworm.github.io/Blogs/tags/pca/</guid>
       <description></description>
     </item>
     
     <item>
       <title>LSTM</title>
-      <link>https://JyothiSwaroopReddy07.github.io/tags/lstm/</link>
+      <link>https://devoworm.github.io/Blogs/tags/lstm/</link>
       <pubDate>Sun, 31 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://JyothiSwaroopReddy07.github.io/tags/lstm/</guid>
+      <guid>https://devoworm.github.io/Blogs/tags/lstm/</guid>
       <description></description>
     </item>
     
     <item>
       <title>time series data</title>
-      <link>https://JyothiSwaroopReddy07.github.io/tags/time-series-data/</link>
+      <link>https://devoworm.github.io/Blogs/tags/time-series-data/</link>
       <pubDate>Sun, 31 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://JyothiSwaroopReddy07.github.io/tags/time-series-data/</guid>
+      <guid>https://devoworm.github.io/Blogs/tags/time-series-data/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Feature extraction</title>
-      <link>https://JyothiSwaroopReddy07.github.io/tags/feature-extraction/</link>
+      <link>https://devoworm.github.io/Blogs/tags/feature-extraction/</link>
       <pubDate>Sun, 24 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://JyothiSwaroopReddy07.github.io/tags/feature-extraction/</guid>
+      <guid>https://devoworm.github.io/Blogs/tags/feature-extraction/</guid>
       <description></description>
     </item>
     
