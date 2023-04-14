@@ -2,35 +2,35 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>GAN on Awesome Hugo blog</title>
-    <link>https://JyothiSwaroopReddy07.github.io/tags/gan/</link>
+    <link>https://devoworm.github.io/Blogs/tags/gan/</link>
     <description>Recent content in GAN on Awesome Hugo blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 02 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://JyothiSwaroopReddy07.github.io/tags/gan/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 02 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://devoworm.github.io/Blogs/tags/gan/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hello DevoLearn</title>
-      <link>https://JyothiSwaroopReddy07.github.io/posts/mayukhdebgsocwork/gsoc-2020-aug-2/</link>
+      <link>https://devoworm.github.io/Blogs/posts/mayukhdebgsocwork/gsoc-2020-aug-2/</link>
       <pubDate>Sun, 02 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://JyothiSwaroopReddy07.github.io/posts/mayukhdebgsocwork/gsoc-2020-aug-2/</guid>
+      <guid>https://devoworm.github.io/Blogs/posts/mayukhdebgsocwork/gsoc-2020-aug-2/</guid>
       <description>Google Summer of Code | Coding period week 9</description>
     </item>
     
     <item>
       <title>Hello DevoLearn</title>
-      <link>https://JyothiSwaroopReddy07.github.io/posts/mayukhdebgsocwork/gsoc-2020-aug-2/</link>
+      <link>https://devoworm.github.io/Blogs/posts/mayukhdebgsocwork/gsoc-2020-aug-2/</link>
       <pubDate>Sun, 02 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://JyothiSwaroopReddy07.github.io/posts/mayukhdebgsocwork/gsoc-2020-aug-2/</guid>
+      <guid>https://devoworm.github.io/Blogs/posts/mayukhdebgsocwork/gsoc-2020-aug-2/</guid>
       <description>Google Summer of Code | Coding period week 9</description>
     </item>
     
     <item>
       <title>Training a GAN</title>
-      <link>https://JyothiSwaroopReddy07.github.io/posts/mayukhdebgsocwork/gsoc-2020-july-26/</link>
+      <link>https://devoworm.github.io/Blogs/posts/mayukhdebgsocwork/gsoc-2020-july-26/</link>
       <pubDate>Sun, 26 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://JyothiSwaroopReddy07.github.io/posts/mayukhdebgsocwork/gsoc-2020-july-26/</guid>
+      <guid>https://devoworm.github.io/Blogs/posts/mayukhdebgsocwork/gsoc-2020-july-26/</guid>
       <description>Google Summer of Code | Coding period week 8</description>
     </item>
     
