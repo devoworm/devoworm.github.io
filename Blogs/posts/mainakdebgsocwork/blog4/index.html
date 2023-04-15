@@ -4,11 +4,11 @@
 <meta http-equiv="content-type" content="text/html">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title itemprop="name">Home | Awesome Hugo blog</title>
-<meta property="og:title" content="Home | Awesome Hugo blog" />
-<meta name="twitter:title" content="Home | Awesome Hugo blog" />
-<meta itemprop="name" content="Home | Awesome Hugo blog" />
-<meta name="application-name" content="Home | Awesome Hugo blog" />
+<title itemprop="name">GSoC - Coding Period Week 3 | Awesome Hugo blog</title>
+<meta property="og:title" content="GSoC - Coding Period Week 3 | Awesome Hugo blog" />
+<meta name="twitter:title" content="GSoC - Coding Period Week 3 | Awesome Hugo blog" />
+<meta itemprop="name" content="GSoC - Coding Period Week 3 | Awesome Hugo blog" />
+<meta name="application-name" content="GSoC - Coding Period Week 3 | Awesome Hugo blog" />
 <meta property="og:site_name" content="Awesome hugo blog" />
 
 <meta name="description" content="Minimal Hugo blog theme with light and dark mode support">
@@ -29,13 +29,49 @@
 
 
 
+    
+    
+    
+    
+
+    <meta property="og:type" content="article" />
+    <meta property="og:article:published_time" content=2021-06-28T00:00:00Z />
+    <meta property="article:published_time" content=2021-06-28T00:00:00Z />
+
+    
+
+    
+
+    <script defer type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "Article",
+        "headline": "GSoC - Coding Period Week 3",
+        "author": {
+        "@type": "Person",
+        "name": ""
+        },
+        "datePublished": "2021-06-28",
+        "description": "",
+        "wordCount":  267 ,
+        "mainEntityOfPage": "True",
+        "dateModified": "2021-06-28",
+        "image": {
+        "@type": "imageObject",
+        "url": ""
+        },
+        "publisher": {
+        "@type": "Organization",
+        "name": "Awesome Hugo blog"
+        }
+    }
+    </script>
+
   <meta name="generator" content="Hugo 0.92.2" />
 
   
 
-  <link rel="canonical" href="https://devoworm.github.io/Blogs/">
-  <link href="https://devoworm.github.io/Blogs/index.xml" rel="alternate" type="application/rss+xml" title="Awesome Hugo blog">
-  <link href="https://devoworm.github.io/Blogs/index.xml" rel="feed" type="application/rss+xml" title="Awesome Hugo blog"><link href="/Blogs/sass/main.min.0eebb6db90b4ec9f4444ef402f08421ee056025ba860df3d749a9f299d472008.css" rel="stylesheet"><link href="/Blogs/code-highlight.min.706d31975fec544a864cb7f0d847a73ea55ca1df91bf495fd12a177138d807cf.css" rel="stylesheet">
+  <link rel="canonical" href="https://devoworm.github.io/Blogs/posts/mainakdebgsocwork/blog4/"><link href="/Blogs/sass/main.min.0eebb6db90b4ec9f4444ef402f08421ee056025ba860df3d749a9f299d472008.css" rel="stylesheet"><link href="/Blogs/code-highlight.min.706d31975fec544a864cb7f0d847a73ea55ca1df91bf495fd12a177138d807cf.css" rel="stylesheet">
 
   
 
@@ -78,7 +114,7 @@ stroke-linejoin="round" class="feather feather-home">
         
           <li>
             <a 
-            class="menu-link active"
+            class="menu-link "
             href="/Blogs/">
             Home
             </a>
@@ -87,7 +123,7 @@ stroke-linejoin="round" class="feather feather-home">
         
           <li>
             <a 
-            class="menu-link "
+            class="menu-link active"
             href="/Blogs/posts/">
             Posts
             </a>
@@ -116,93 +152,83 @@ stroke-linejoin="round" class="feather feather-home">
     </div>
   </nav>
 </div>
-<div class="wrapper">
-            
 
+<div class="wrapper post">
+    <main class="page-content" aria-label="Content">
+        <article>
+            <header class="header">
+                <h1 class="header-title">GSoC - Coding Period Week 3</h1>
+                
+                <div class="post-meta">
+                    <time datetime="2021-06-28T00:00:00&#43;00:00" itemprop="datePublished"> Jun 28, 2021 </time>
+                </div>
+            </header>
+            <div class="page-content">
+                <h2 id="work-done-this-week-june-21st-to-june-27th">Work Done This Week (June 21st to June 27th)</h2>
+<ul>
+<li>
+<p>Converted the upgraded segmentation model into ONNX format.</p>
+</li>
+<li>
+<p>Ran inference on the ONNX model (colab and local environment) to make sure it works. Then used Gradio to build a GUI.</p>
+</li>
+<li>
+<p>The next step was to host this online. Gradio has their own hosting service, but that costs $7/month. Looked into ways of hosting apps online for free, decided to go with Heroku.</p>
+</li>
+<li>
+<p>Created the additional files required for hosting online on Heroku:</p>
+<ul>
+<li><code>Procfile</code></li>
+<li><code>requirements.txt</code></li>
+<li><code>setup.sh</code></li>
+</ul>
+</li>
+<li>
+<p>Pushed the files into a github repository, and linked it to the Heroku app.</p>
+</li>
+<li>
+<p>Deployed a bare-bones version of the app online.</p>
+  <img src="../images/gsoc-coding-period-week-3/devolearn-web-demo-1.gif" alt="" width="700" height="">
+</li>
+<li>
+<p>Adding the centroid mapping feature turned out to be tricky. It worked on local-host, but did not work when deployed on Heroku.</p>
+</li>
+<li>
+<p>Checked the logs, the error message read :</p>
+<p><em><code>ImportError: libSM.so.6: cannot open shared object file: No such file or directory</code></em></p>
+</li>
+<li>
+<p>Turns out, it was in issue with OpenCV&rsquo;s dependency on libSM6. I replaced <code>opencv-python==4.5.2.54</code> with <code>opencv-python-headless==4.5.2.54</code> and it worked!</p>
+  <img src="../images/gsoc-coding-period-week-3/devolearn-web-demo-2.gif" alt="" width="700" height="">
+</li>
+<li>
+<p>Not everybody has images of C. elegans embryos saved on their computer, so I decided to add in some examples on the site.</p>
+</li>
+<li>
+<p>Note: The Heroku app is currently linked to a personal repository for quick prototyping and testing.</p>
+</li>
+<li>
+<p>Links:</p>
+<ul>
+<li>Converting torch model to ONNX - <a href="https://github.com/Mainakdeb/GSoC-2021/blob/main/cell-membrane-segmentation/torch_to_onnx.ipynb">Notebook</a></li>
+<li>Test repository linked to the cell membrane segmentation heroku app - <a href="https://github.com/Mainakdeb/devolearn-web-test">Link</a></li>
+<li><a href="https://devolearn-web-test.herokuapp.com/">Cell membrane segmentation web app</a> (test phase)</li>
+</ul>
+</li>
+</ul>
+<h2 id="planned">Planned:</h2>
+<ul>
+<li>Make a couple more changes to the GUI hosted on Heroku.</li>
+<li>Upgrade the DevoLearn cell lineage population model.</li>
+<li>Host the cell lineage population model online.</li>
+<li>Resume work on the cell nucleus segmentation model.</li>
+</ul>
 
-<div class="author">
-    
-    
-    <img class="author-avatar" 
-    src="/Blogs/avatar_hu0ec38516c89f3b282124f480453884f1_87772_100x100_fill_q75_h2_box_smart1.webp" 
-    alt="Sidharth R" width="628" height="640" />
-    
-    <h2 class="author-name">Awesome hugo blog</h2>
-    <p class="author-bio">A fast, minimalistic Hugo theme with light and dark mode support, for running a personal site or blog</p>
+            </div>
+        </article>
+    </main>
 </div>
-
-            <main aria-label="Content">
-                <h3 class="posts-item-note" aria-label="Recent Posts">Recent Posts</h3>
-                
-                
-                
-                <article class="post-item">
-    <h4 class="post-item-title">
-        <a href="https://devoworm.github.io/Blogs/posts/mainakdebgsocwork/blog10/">GSoC - Coding Period Week 9</a>
-    </h4>
-    
-    
-    <time class="post-item-meta" datetime="2021-08-09T00:00:00Z">
-        Aug 9, 2021
-    </time>
-</article>
-
-                
-                <article class="post-item">
-    <h4 class="post-item-title">
-        <a href="https://devoworm.github.io/Blogs/posts/mainakdebgsocwork/blog9/">GSoC - Coding Period Week 8</a>
-    </h4>
-    
-    
-    <time class="post-item-meta" datetime="2021-08-02T00:00:00Z">
-        Aug 2, 2021
-    </time>
-</article>
-
-                
-                <article class="post-item">
-    <h4 class="post-item-title">
-        <a href="https://devoworm.github.io/Blogs/posts/mainakdebgsocwork/blog8/">GSoC - Coding Period Week 7</a>
-    </h4>
-    
-    
-    <time class="post-item-meta" datetime="2021-07-25T00:00:00Z">
-        Jul 25, 2021
-    </time>
-</article>
-
-                
-                <article class="post-item">
-    <h4 class="post-item-title">
-        <a href="https://devoworm.github.io/Blogs/posts/mainakdebgsocwork/blog7/">GSoC - Coding Period Week 6</a>
-    </h4>
-    
-    
-    <time class="post-item-meta" datetime="2021-07-19T00:00:00Z">
-        Jul 19, 2021
-    </time>
-</article>
-
-                
-                <article class="post-item">
-    <h4 class="post-item-title">
-        <a href="https://devoworm.github.io/Blogs/posts/mainakdebgsocwork/blog6/">GSoC - Coding Period Week 5</a>
-    </h4>
-    
-    
-    <time class="post-item-meta" datetime="2021-07-12T00:00:00Z">
-        Jul 12, 2021
-    </time>
-</article>
-
-                
-                
-                <p>
-                    <a href="/posts/">See all posts</a>
-                </p>
-                
-            </main>
-        </div><footer class="footer">
+<footer class="footer">
     <span class="footer_item"> </span>
     &nbsp;
 

@@ -6,7 +6,113 @@
     <description>Recent content in Home on Awesome Hugo blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 16 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://devoworm.github.io/Blogs/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 09 Aug 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://devoworm.github.io/Blogs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GSoC - Coding Period Week 9</title>
+      <link>https://devoworm.github.io/Blogs/posts/mainakdebgsocwork/blog10/</link>
+      <pubDate>Mon, 09 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://devoworm.github.io/Blogs/posts/mainakdebgsocwork/blog10/</guid>
+      <description>Work Done This Week (August 2nd to August 8th)   Replaced the static images on the DevoLearn web-app with interactive Plotly images, this will allow users to :
+ Zoom into images Pan across the zoomed image. View images in full-screen mode Save images as PNG    The gif below showcases the new interactive plots.
+    Added a threshold slider for the 2 segmentation models.</description>
+    </item>
+    
+    <item>
+      <title>GSoC - Coding Period Week 8</title>
+      <link>https://devoworm.github.io/Blogs/posts/mainakdebgsocwork/blog9/</link>
+      <pubDate>Mon, 02 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://devoworm.github.io/Blogs/posts/mainakdebgsocwork/blog9/</guid>
+      <description>Work Done This Week (July 26th to August 1st)   Converted the DevoLearn Lineage Population model into ONNX.
+  Defined the funtions needed to run the Lineage population model via the GUI.
+  Ran tests on Localhost to ensure everything is in place.
+  Created the required files for hosting the web-app online using Heroku.
+ Procfile - Procfile is a mechanism for declaring what commands are run by the heroku dyno.</description>
+    </item>
+    
+    <item>
+      <title>GSoC - Coding Period Week 7</title>
+      <link>https://devoworm.github.io/Blogs/posts/mainakdebgsocwork/blog8/</link>
+      <pubDate>Sun, 25 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://devoworm.github.io/Blogs/posts/mainakdebgsocwork/blog8/</guid>
+      <description>Work Done This Week (July 20th to July 25th)  Converted the nucleus segmentation model into ONNX (Link to code) Began working on the DevoLearn GUI, this time using Streamlit, this would support multiple models on one web-app.  Built the pipeline to run inference using the ONNX models, ran tests to ensure the 2 segmentation models work via the GUI. The user will have the ability to select any of the DevoLearn models from the drop down menu to the left, then drag and drop inputs.</description>
+    </item>
+    
+    <item>
+      <title>GSoC - Coding Period Week 6</title>
+      <link>https://devoworm.github.io/Blogs/posts/mainakdebgsocwork/blog7/</link>
+      <pubDate>Mon, 19 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://devoworm.github.io/Blogs/posts/mainakdebgsocwork/blog7/</guid>
+      <description>Work Done This Week (July 12th to July 19th)  Swapped out the model for the Cell membrane segmentation with the upgraded model in DevoLearn&amp;rsquo;s repository, ran tests locally before pushing because Travis has been discontinued. (Link to commit)    Renamed the embryo_segmentor package to cell_membrane_segmentor. The reason for this renaming is to avoid naming conflicts when new segmentation models are added. (Link to commit)
+ Old syntax - from devolearn import embryo_segmentor New syntax - from devolearn import cell_membrane_segmentor    Integrated the new nucleus segmentation model into the library (Link to commit)</description>
+    </item>
+    
+    <item>
+      <title>GSoC - Coding Period Week 5</title>
+      <link>https://devoworm.github.io/Blogs/posts/mainakdebgsocwork/blog6/</link>
+      <pubDate>Mon, 12 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://devoworm.github.io/Blogs/posts/mainakdebgsocwork/blog6/</guid>
+      <description>Work Done This Week (July 5th to July 12th)  Refactored the training loop for the nucleus segentation model, this enabled faster prototyping and experimentation. Integrated Optuna for automated hyperparameter optimization. Ran 200 optuna trials to find training hyperparams. Optuna samples hyperparams from a given range, which in this case was -  Learning rate: 0.5e-3 to 20e-3 Batch Size: 8 to 64   Each trial trained the model on 10% of available data for 3 epochs, and returned the resulting IOU score.</description>
+    </item>
+    
+    <item>
+      <title>GSoC - Coding Period Week 4</title>
+      <link>https://devoworm.github.io/Blogs/posts/mainakdebgsocwork/blog5/</link>
+      <pubDate>Mon, 05 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://devoworm.github.io/Blogs/posts/mainakdebgsocwork/blog5/</guid>
+      <description>Most of my time this week was spent on building the training pipeline for the proposed cell nucleus segmentation model in C. elegans embryos.
+Work Done This Week (June 28th to July 4th)   Back in week-1, I had worked on preprocessing data from the cell-tracking-challenge dataset. The dataset was extracted from .tif files and saved as pairs of .png files.
+  To prevent anu CPU bottlenecks while training, I used PIL to resize all the training images to 1x256x256 beforehand.</description>
+    </item>
+    
+    <item>
+      <title>GSoC - Coding Period Week 3</title>
+      <link>https://devoworm.github.io/Blogs/posts/mainakdebgsocwork/blog4/</link>
+      <pubDate>Mon, 28 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://devoworm.github.io/Blogs/posts/mainakdebgsocwork/blog4/</guid>
+      <description>Work Done This Week (June 21st to June 27th)   Converted the upgraded segmentation model into ONNX format.
+  Ran inference on the ONNX model (colab and local environment) to make sure it works. Then used Gradio to build a GUI.
+  The next step was to host this online. Gradio has their own hosting service, but that costs $7/month. Looked into ways of hosting apps online for free, decided to go with Heroku.</description>
+    </item>
+    
+    <item>
+      <title>GSoC - Coding Period Week 2</title>
+      <link>https://devoworm.github.io/Blogs/posts/mainakdebgsocwork/blog3/</link>
+      <pubDate>Sun, 20 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://devoworm.github.io/Blogs/posts/mainakdebgsocwork/blog3/</guid>
+      <description>The goal for this week was to upgrade the DevoLearn cell membrane segmentation model. Feel free to check out the code - Link
+Work Done This Week (June 14th to June 20th) 1. Fixed the Preprocessing Pipeline:  Fixed a strange issue that led to an offset in the image filenames. Used PNG format to store the images instead of JPG (which was being used). The JPG format led to lossy edges in segmentation maps, which was being tackled using OpenCV based operations, but that led to larger gaps between the segmentation maps of individual cells.</description>
+    </item>
+    
+    <item>
+      <title>GSoC - Coding Period Week 1</title>
+      <link>https://devoworm.github.io/Blogs/posts/mainakdebgsocwork/blog2/</link>
+      <pubDate>Mon, 14 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://devoworm.github.io/Blogs/posts/mainakdebgsocwork/blog2/</guid>
+      <description>This blog post showcases what I did last week and what I plan to do next.
+Work Done This Week (June 7th to June 13th) 1. JPEG or PNG?   Last week I was able to convert the .tif files from the cell-tracking-challenge dataset into NumPy arrays. The next goal was to save these NumPy arrays as image files.
+  Here&amp;rsquo;s where I made a mistake, I saved the images as .</description>
+    </item>
+    
+    <item>
+      <title>GSoC - Community Bonding</title>
+      <link>https://devoworm.github.io/Blogs/posts/mainakdebgsocwork/blog1/</link>
+      <pubDate>Sun, 06 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://devoworm.github.io/Blogs/posts/mainakdebgsocwork/blog1/</guid>
+      <description>This blog post summary of what I&amp;rsquo;ve been doing this week and what I plan to do in the coming week.
+Work Done This Week (May 17th to June 6th)   Gave a presentation on the weekly DevoWorm meeting, discussed the goals and deadlines that need to be met in the coming months - link to the slides
+  Read some articles/papers suggested by my mentor that deal with working with communities and collaboration, liked one in particular that talks about &amp;ldquo;bursty&amp;rdquo; communication and how it helps remote teams thrive - link</description>
+    </item>
+    
     <item>
       <title>And then there were tests</title>
       <link>https://devoworm.github.io/Blogs/posts/mayukhdebgsocwork/gsoc-2020-august-16/</link>
