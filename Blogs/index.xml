@@ -239,16 +239,6 @@ Work Done This Week (May 17th to June 6th)   Gave a presentation on the weekly D
       <description>Google Summer of Code | Community bonding period week 1</description>
     </item>
     
-    <item>
-      <title>About</title>
-      <link>https://devoworm.github.io/Blogs/about/</link>
-      <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://devoworm.github.io/Blogs/about/</guid>
-      <description>Written in Go, Hugo is an open source static site generator available under the Apache Licence 2.0. Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
-Hugo makes use of a variety of open source projects including:
- https://github.</description>
-    </item>
     
   </channel>
 </rss>
