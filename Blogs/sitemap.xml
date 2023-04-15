@@ -2,22 +2,61 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://devoworm.github.io/Blogs/tags/devoworm/</loc>
+    <lastmod>2021-08-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://devoworm.github.io/Blogs/tags/gsoc/</loc>
+    <lastmod>2021-08-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://devoworm.github.io/Blogs/posts/mainakdebgsocwork/blog10/</loc>
+    <lastmod>2021-08-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://devoworm.github.io/Blogs/</loc>
+    <lastmod>2021-08-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://devoworm.github.io/Blogs/posts/mainakdebgsocwork/</loc>
+    <lastmod>2021-08-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://devoworm.github.io/Blogs/posts/</loc>
+    <lastmod>2021-08-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://devoworm.github.io/Blogs/tags/</loc>
+    <lastmod>2021-08-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://devoworm.github.io/Blogs/posts/mainakdebgsocwork/blog9/</loc>
+    <lastmod>2021-08-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://devoworm.github.io/Blogs/posts/mainakdebgsocwork/blog8/</loc>
+    <lastmod>2021-07-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://devoworm.github.io/Blogs/posts/mainakdebgsocwork/blog7/</loc>
+    <lastmod>2021-07-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://devoworm.github.io/Blogs/posts/mainakdebgsocwork/blog6/</loc>
+    <lastmod>2021-07-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://devoworm.github.io/Blogs/posts/mainakdebgsocwork/blog5/</loc>
+    <lastmod>2021-07-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://devoworm.github.io/Blogs/posts/mainakdebgsocwork/blog4/</loc>
+    <lastmod>2021-06-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://devoworm.github.io/Blogs/posts/mainakdebgsocwork/blog3/</loc>
+    <lastmod>2021-06-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://devoworm.github.io/Blogs/posts/mainakdebgsocwork/blog2/</loc>
+    <lastmod>2021-06-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://devoworm.github.io/Blogs/posts/mainakdebgsocwork/blog1/</loc>
+    <lastmod>2021-06-06T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://devoworm.github.io/Blogs/posts/mayukhdebgsocwork/gsoc-2020-august-16/</loc>
     <lastmod>2020-08-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://devoworm.github.io/Blogs/tags/gsoc/</loc>
-    <lastmod>2020-08-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://devoworm.github.io/Blogs/</loc>
+    <loc>https://devoworm.github.io/Blogs/posts/mayukhdebgsocwork/</loc>
     <lastmod>2020-08-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://devoworm.github.io/Blogs/tags/openworm/</loc>
-    <lastmod>2020-08-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://devoworm.github.io/Blogs/posts/</loc>
-    <lastmod>2020-08-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://devoworm.github.io/Blogs/tags/</loc>
     <lastmod>2020-08-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://devoworm.github.io/Blogs/tags/tests/</loc>

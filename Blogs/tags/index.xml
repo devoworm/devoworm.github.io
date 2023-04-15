@@ -6,11 +6,20 @@
     <description>Recent content in Tags on Awesome Hugo blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 16 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://devoworm.github.io/Blogs/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 09 Aug 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://devoworm.github.io/Blogs/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DevoWorm</title>
+      <link>https://devoworm.github.io/Blogs/tags/devoworm/</link>
+      <pubDate>Mon, 09 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://devoworm.github.io/Blogs/tags/devoworm/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>GSoC</title>
       <link>https://devoworm.github.io/Blogs/tags/gsoc/</link>
-      <pubDate>Sun, 16 Aug 2020 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 09 Aug 2021 00:00:00 +0000</pubDate>
       
       <guid>https://devoworm.github.io/Blogs/tags/gsoc/</guid>
       <description></description>

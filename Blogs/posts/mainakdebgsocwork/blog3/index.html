@@ -4,11 +4,11 @@
 <meta http-equiv="content-type" content="text/html">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title itemprop="name">Home | Awesome Hugo blog</title>
-<meta property="og:title" content="Home | Awesome Hugo blog" />
-<meta name="twitter:title" content="Home | Awesome Hugo blog" />
-<meta itemprop="name" content="Home | Awesome Hugo blog" />
-<meta name="application-name" content="Home | Awesome Hugo blog" />
+<title itemprop="name">GSoC - Coding Period Week 2 | Awesome Hugo blog</title>
+<meta property="og:title" content="GSoC - Coding Period Week 2 | Awesome Hugo blog" />
+<meta name="twitter:title" content="GSoC - Coding Period Week 2 | Awesome Hugo blog" />
+<meta itemprop="name" content="GSoC - Coding Period Week 2 | Awesome Hugo blog" />
+<meta name="application-name" content="GSoC - Coding Period Week 2 | Awesome Hugo blog" />
 <meta property="og:site_name" content="Awesome hugo blog" />
 
 <meta name="description" content="Minimal Hugo blog theme with light and dark mode support">
@@ -29,13 +29,49 @@
 
 
 
+    
+    
+    
+    
+
+    <meta property="og:type" content="article" />
+    <meta property="og:article:published_time" content=2021-06-20T00:00:00Z />
+    <meta property="article:published_time" content=2021-06-20T00:00:00Z />
+
+    
+
+    
+
+    <script defer type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "Article",
+        "headline": "GSoC - Coding Period Week 2",
+        "author": {
+        "@type": "Person",
+        "name": ""
+        },
+        "datePublished": "2021-06-20",
+        "description": "",
+        "wordCount":  257 ,
+        "mainEntityOfPage": "True",
+        "dateModified": "2021-06-20",
+        "image": {
+        "@type": "imageObject",
+        "url": ""
+        },
+        "publisher": {
+        "@type": "Organization",
+        "name": "Awesome Hugo blog"
+        }
+    }
+    </script>
+
   <meta name="generator" content="Hugo 0.92.2" />
 
   
 
-  <link rel="canonical" href="https://devoworm.github.io/Blogs/">
-  <link href="https://devoworm.github.io/Blogs/index.xml" rel="alternate" type="application/rss+xml" title="Awesome Hugo blog">
-  <link href="https://devoworm.github.io/Blogs/index.xml" rel="feed" type="application/rss+xml" title="Awesome Hugo blog"><link href="/Blogs/sass/main.min.0eebb6db90b4ec9f4444ef402f08421ee056025ba860df3d749a9f299d472008.css" rel="stylesheet"><link href="/Blogs/code-highlight.min.706d31975fec544a864cb7f0d847a73ea55ca1df91bf495fd12a177138d807cf.css" rel="stylesheet">
+  <link rel="canonical" href="https://devoworm.github.io/Blogs/posts/mainakdebgsocwork/blog3/"><link href="/Blogs/sass/main.min.0eebb6db90b4ec9f4444ef402f08421ee056025ba860df3d749a9f299d472008.css" rel="stylesheet"><link href="/Blogs/code-highlight.min.706d31975fec544a864cb7f0d847a73ea55ca1df91bf495fd12a177138d807cf.css" rel="stylesheet">
 
   
 
@@ -78,7 +114,7 @@ stroke-linejoin="round" class="feather feather-home">
         
           <li>
             <a 
-            class="menu-link active"
+            class="menu-link "
             href="/Blogs/">
             Home
             </a>
@@ -87,7 +123,7 @@ stroke-linejoin="round" class="feather feather-home">
         
           <li>
             <a 
-            class="menu-link "
+            class="menu-link active"
             href="/Blogs/posts/">
             Posts
             </a>
@@ -116,93 +152,68 @@ stroke-linejoin="round" class="feather feather-home">
     </div>
   </nav>
 </div>
-<div class="wrapper">
-            
 
+<div class="wrapper post">
+    <main class="page-content" aria-label="Content">
+        <article>
+            <header class="header">
+                <h1 class="header-title">GSoC - Coding Period Week 2</h1>
+                
+                <div class="post-meta">
+                    <time datetime="2021-06-20T00:00:00&#43;00:00" itemprop="datePublished"> Jun 20, 2021 </time>
+                </div>
+            </header>
+            <div class="page-content">
+                <p>The goal for this week was to upgrade the DevoLearn cell membrane segmentation model. Feel free to check out the code - <a href="https://github.com/Mainakdeb/GSoC-2021/tree/main/cell-membrane-segmentation">Link</a></p>
+<h2 id="work-done-this-week-june-14th-to-june-20th">Work Done This Week (June 14th to June 20th)</h2>
+<h3 id="1-fixed-the-preprocessing-pipeline">1. Fixed the Preprocessing Pipeline:</h3>
+<ul>
+<li>Fixed a strange issue that led to an offset in the image filenames.</li>
+<li>Used PNG format to store the images instead of JPG (which was being used).</li>
+<li>The JPG format led to lossy edges in segmentation maps, which was being tackled using OpenCV based operations, but that led to larger gaps between the segmentation maps of individual cells. This has been fixed.</li>
+<li>Saved postprocessed data in Google Drive, links below:
+<ul>
+<li>Postprocessed Images - <a href="https://drive.google.com/file/d/1wy53XglZl5Pgdq0V6pT3Q7DJeTheZmoh/view?usp=sharing">Google Drive link</a></li>
+<li>Csv file - <a href="https://drive.google.com/file/d/1-BE9yxcEW9i_-GPrIc7ABkosXOAKIES-/view?usp=sharing">Google Drive link</a></li>
+<li>Original data - <a href="https://www.researchgate.net/publication/332572299_3DMMS_Robust_3D_Membrane_Morphological_Segmentation_of_C_elegans_embryo">Paper Link</a>, <a href="https://figshare.com/articles/dataset/Dataset_for_MMS/7781777">Data on Figshare</a></li>
+</ul>
+</li>
+<li>The diagram below highlights the difference between new and old training data.</li>
+</ul>
+<img src="../images/gsoc-coding-period-week-2/compare_training_data.png" alt="" width="700" height="">
+<h3 id="2-new-augmentation-techniques">2. New Augmentation techniques:</h3>
+<ul>
+<li>Added in a couple more <a href="https://github.com/albumentations-team/albumentations">Albumentations</a> based image augmentation techniques.</li>
+</ul>
+<h3 id="3-automated-hyperparameter-optimization">3. Automated Hyperparameter Optimization:</h3>
+<ul>
+<li>Used Optuna to automate the process of finding optimal hyperparameters, I used it to optimize the learning rate and batch size to maximize the IOU score.</li>
+<li>Ran 100 Optuna trials, 1 epoch each, on 10% of available data.</li>
+</ul>
+<h3 id="4-training-metrics">4. Training metrics:</h3>
+<ul>
+<li>The image below showcases metrics after 50 epochs of training.</li>
+</ul>
+<img src="../images/gsoc-coding-period-week-2/training_metrics.png" alt="" width="700" height="">
+<h3 id="5-old-vs-new-model">5. Old vs New Model:</h3>
+<ul>
+<li>The code to generate the following plots could be found in the <a href="https://github.com/Mainakdeb/GSoC-2021/blob/main/cell-membrane-segmentation/train_segmentation_model.ipynb">training notebook</a>.</li>
+</ul>
+<img src="../images/gsoc-coding-period-week-2/comparision_oldvsnew.gif" alt="" width="700" height="">
+<img src="../images/gsoc-coding-period-week-2/comparision_1.png" alt="" width="700" height="">
+<img src="../images/gsoc-coding-period-week-2/comparision_2.png" alt="" width="700" height="">
+<h2 id="planned">Planned:</h2>
+<ul>
+<li>Push the upgraded cell membrane segmentation model into the main DevoLearn repository.</li>
+<li>Work on upgrading the DevoLearn lineage population model.</li>
+<li>Revamp the existing DevoLearn starter notebook, add interactive plots.</li>
+</ul>
 
-<div class="author">
-    
-    
-    <img class="author-avatar" 
-    src="/Blogs/avatar_hu0ec38516c89f3b282124f480453884f1_87772_100x100_fill_q75_h2_box_smart1.webp" 
-    alt="Sidharth R" width="628" height="640" />
-    
-    <h2 class="author-name">Awesome hugo blog</h2>
-    <p class="author-bio">A fast, minimalistic Hugo theme with light and dark mode support, for running a personal site or blog</p>
+            </div>
+        </article>
+    </main>
 </div>
-
-            <main aria-label="Content">
-                <h3 class="posts-item-note" aria-label="Recent Posts">Recent Posts</h3>
-                
-                
-                
-                <article class="post-item">
-    <h4 class="post-item-title">
-        <a href="https://devoworm.github.io/Blogs/posts/mainakdebgsocwork/blog10/">GSoC - Coding Period Week 9</a>
-    </h4>
-    
-    
-    <time class="post-item-meta" datetime="2021-08-09T00:00:00Z">
-        Aug 9, 2021
-    </time>
-</article>
-
-                
-                <article class="post-item">
-    <h4 class="post-item-title">
-        <a href="https://devoworm.github.io/Blogs/posts/mainakdebgsocwork/blog9/">GSoC - Coding Period Week 8</a>
-    </h4>
-    
-    
-    <time class="post-item-meta" datetime="2021-08-02T00:00:00Z">
-        Aug 2, 2021
-    </time>
-</article>
-
-                
-                <article class="post-item">
-    <h4 class="post-item-title">
-        <a href="https://devoworm.github.io/Blogs/posts/mainakdebgsocwork/blog8/">GSoC - Coding Period Week 7</a>
-    </h4>
-    
-    
-    <time class="post-item-meta" datetime="2021-07-25T00:00:00Z">
-        Jul 25, 2021
-    </time>
-</article>
-
-                
-                <article class="post-item">
-    <h4 class="post-item-title">
-        <a href="https://devoworm.github.io/Blogs/posts/mainakdebgsocwork/blog7/">GSoC - Coding Period Week 6</a>
-    </h4>
-    
-    
-    <time class="post-item-meta" datetime="2021-07-19T00:00:00Z">
-        Jul 19, 2021
-    </time>
-</article>
-
-                
-                <article class="post-item">
-    <h4 class="post-item-title">
-        <a href="https://devoworm.github.io/Blogs/posts/mainakdebgsocwork/blog6/">GSoC - Coding Period Week 5</a>
-    </h4>
-    
-    
-    <time class="post-item-meta" datetime="2021-07-12T00:00:00Z">
-        Jul 12, 2021
-    </time>
-</article>
-
-                
-                
-                <p>
-                    <a href="/posts/">See all posts</a>
-                </p>
-                
-            </main>
-        </div><footer class="footer">
+<footer class="footer">
     <span class="footer_item"> </span>
     &nbsp;
 
