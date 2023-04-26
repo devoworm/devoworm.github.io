@@ -6,7 +6,46 @@
     <description>Recent content in DevoWorm on Awesome Hugo blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 09 Aug 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://devoworm.github.io/Blogs/tags/devoworm/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 03 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://devoworm.github.io/Blogs/tags/devoworm/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ancient Embryogenesis and Evolutionary Origins</title>
+      <link>https://devoworm.github.io/Blogs/posts/devowormpublications/blog1/</link>
+      <pubDate>Fri, 03 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://devoworm.github.io/Blogs/posts/devowormpublications/blog1/</guid>
+      <description>&amp;ldquo;Darwin as an Embryo&amp;rdquo;. In this case, Neoteny really does recapitulates Phylogeny COURTESY: Stable Diffusion.
+For this year&amp;rsquo;s delayed Darwin Day post, I will present some of the latest work on ancient embryos which we have been discussing in the DevoWorm group meetings. While this is by no means a complete review, we will discuss the earliest fossil evidence for eggs, embryos, and nervous systems (in animals, not plants), in addition to the conditions that lead to their emergence.</description>
+    </item>
+    
+    <item>
+      <title>Learning on Graphs (LoG) conference recap</title>
+      <link>https://devoworm.github.io/Blogs/posts/devowormpublications/blog2/</link>
+      <pubDate>Fri, 23 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://devoworm.github.io/Blogs/posts/devowormpublications/blog2/</guid>
+      <description>The Learning on Graphs (LoG) conference took place from December 9-12 and featured a broad diversity of research on Graph Neural Networks (GNNs). GNNs [1] encompass a relatively new area of machine learning research which have a number of interesting connections to applied math and network science. The daily sessions (keynote talks and oral presentations), in addition to the seven workshop sessions, are available from the conference YouTube channel.
+GNNs are a way to take data that yield graphical relationships in the real world and analyze then using the power of neural networks.</description>
+    </item>
+    
+    <item>
+      <title>Google Summer of Code 2022 in the OpenWorm Community (DevoWorm)</title>
+      <link>https://devoworm.github.io/Blogs/posts/devowormpublications/blog3/</link>
+      <pubDate>Wed, 15 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://devoworm.github.io/Blogs/posts/devowormpublications/blog3/</guid>
+      <description>Welcome to Google Summer of Code 2022! I am pleased to announce that this year, we have two funded projects: D-GNNs and Digital Microspheres! These projects will both take place in conjunction with the DevoWorm part of the OpenWorm community. DevoWorm is an interdisciplinary group engaged in both computational and biological data analysis. We have weekly meetings on Jit.si, and are a part of the OpenWorm Foundation. This year, we were able to fund two students per project.</description>
+    </item>
+    
+    <item>
+      <title>OpenWorm Annual Meeting 2021 (DevoWorm update)</title>
+      <link>https://devoworm.github.io/Blogs/posts/devowormpublications/blog4/</link>
+      <pubDate>Wed, 29 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://devoworm.github.io/Blogs/posts/devowormpublications/blog4/</guid>
+      <description>This week we had our OpenWorm Annual Meeting for 2021, which featured administrative business as well as updates from our research groups and educational initiatives. Much activity going on inside of the OpenWorm Foundation &amp;ndash; join the OpenWorm Slack or follow OpenWorm on Twitter for more information. Below are the slides I presented on progress and the latest activities in the DevoWorm group. Click on any slide to enlarge.
+The last slide is in recognition of OpenWorm&amp;rsquo;s 10th anniversary, or at least the first release of OpenWorm 10 years ago this month.</description>
+    </item>
+    
     <item>
       <title>GSoC - Coding Period Week 9</title>
       <link>https://devoworm.github.io/Blogs/posts/mainakdebgsocwork/blog10/</link>
@@ -111,6 +150,172 @@ Work Done This Week (June 7th to June 13th) 1. JPEG or PNG?   Last week I was ab
       <description>This blog post summary of what I&amp;rsquo;ve been doing this week and what I plan to do in the coming week.
 Work Done This Week (May 17th to June 6th)   Gave a presentation on the weekly DevoWorm meeting, discussed the goals and deadlines that need to be met in the coming months - link to the slides
   Read some articles/papers suggested by my mentor that deal with working with communities and collaboration, liked one in particular that talks about &amp;ldquo;bursty&amp;rdquo; communication and how it helps remote teams thrive - link</description>
+    </item>
+    
+    <item>
+      <title>DevoLearn (Open-source) Maintenance and Evangelism</title>
+      <link>https://devoworm.github.io/Blogs/posts/devowormpublications/blog5/</link>
+      <pubDate>Sun, 02 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://devoworm.github.io/Blogs/posts/devowormpublications/blog5/</guid>
+      <description>2021 has been a busy year for the DevoLearn initiative. Not only has Mayukh Deb been busy maintaining and generating new versions of the DevoLearn pre-trained model, but I (Bradly Alicea) has been engaging in technology evangelism to advance awareness and involvement in the initiative. The DevoLearn pre-trained model software (for C. elegans embryogenesis) is now at version 0.3.0, and has garnered 12 contributors making 165 commits (largely since January 2021).</description>
+    </item>
+    
+    <item>
+      <title>OpenWorm Annual Meeting -- DevoWorm Slides</title>
+      <link>https://devoworm.github.io/Blogs/posts/devowormpublications/blog6/</link>
+      <pubDate>Wed, 30 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://devoworm.github.io/Blogs/posts/devowormpublications/blog6/</guid>
+      <description>Today we held the OpenWorm Annual Meeting, which is a time for the Board of Directors and Senior Contributors to meet and discuss the latest developments within the foundation (in this case, activities over the past 1.5 years). Overall, a very inspiring meeting! Here are the slides I presented on progress and the latest activities in the DevoWorm group.
+Click on Images to enlarge. Posted by Bradly Alicea</description>
+    </item>
+    
+    <item>
+      <title>Welcome to DevoLearn!</title>
+      <link>https://devoworm.github.io/Blogs/posts/devowormpublications/blog7/</link>
+      <pubDate>Mon, 24 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://devoworm.github.io/Blogs/posts/devowormpublications/blog7/</guid>
+      <description>Accelerate data driven developmental biology research with computational learning models With Google Summer of Code 2020 almost complete, we can debut our latest endeavor: DevoLearn! DevoLearn is a platform that incorporates a computational analysis platform for embryos of different species, with an annotated collection of secondary datasets (DevoZoo) and educational tools.
+While the first part (DevoLearn 0.2.0) is brand new, the other two components (species-specific models and DevoZoo) are revamped versions of resources we have created over the course of the past three years.</description>
+    </item>
+    
+    <item>
+      <title>Open Data Day 2020</title>
+      <link>https://devoworm.github.io/Blogs/posts/devowormpublications/blog8/</link>
+      <pubDate>Thu, 05 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://devoworm.github.io/Blogs/posts/devowormpublications/blog8/</guid>
+      <description>Welcome to Open Data Day 2020! Sponsored by the Orthogonal Research and Education Laboratory. Our activities start today, and will continue over the course of the next year. For this iteration of Open Data Day, we are looking for software developers, data scientists, statisticians, and quantitative biologists to work on a host of issues related to open data-related activities in the DevoWorm group. Listed below are a series are series of possible goals for the next year.</description>
+    </item>
+    
+    <item>
+      <title>Pre-trained Models for Developmental Biology</title>
+      <link>https://devoworm.github.io/Blogs/posts/devowormpublications/blog9/</link>
+      <pubDate>Wed, 30 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://devoworm.github.io/Blogs/posts/devowormpublications/blog9/</guid>
+      <description>Authors: Bradly Alicea, Richard Gordon, Abraham Kohrmann, Jesse Parent, Vinay Varma This content is cross-posted to The Node, Developmental Biology blog.
+Our virtual discussion group (DevoWormML) has been exploring a number of topics related to the use of pre-trained models in machine learning (specifically deep learning). Pre-trained models such as GPT-2 [1], pix2pix [2], and OpenPose [3] are used for analyzing many specialized types of data (linguistics, image to image translation, and human body features, respectively) and have a number of potential uses for the analysis of biological data in particular.</description>
+    </item>
+    
+    <item>
+      <title>Open Data Day 2019: DevoZoo is Live!</title>
+      <link>https://devoworm.github.io/Blogs/posts/devowormpublications/blog10/</link>
+      <pubDate>Fri, 01 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://devoworm.github.io/Blogs/posts/devowormpublications/blog10/</guid>
+      <description>Welcome to Open Data Day 2019, sponsored by Orthogonal Research and Education Laboratory! This year we are introducing an open data repository called DevoZoo. Based on work going on in the DevoWorm group, DevoZoo include various primary, secondary, and tertiary datasets from a variety of developing organisms (all characterizing embryogenesis). There are several other tabs on the site, including references on C. elegans developmental biology (the embryo image), a collection of Jupyter notebooks (DevoNotes), methods developed within the DevoWorm group (DevoMethods), and an educational curriculum (DevoWormU).</description>
+    </item>
+    
+    <item>
+      <title>January is DevoWorm month!</title>
+      <link>https://devoworm.github.io/Blogs/posts/devowormpublications/blog11/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://devoworm.github.io/Blogs/posts/devowormpublications/blog11/</guid>
+      <description>Blossoms or fireworks to ring in the New Year? Welcome to 2019! And welcome to OpenWorm Foundation&amp;rsquo;s project of the month for January, featuring DevoWorm. Here I will briefly go over progress in the DevoWorm group over the last year and a half. If you would like to know more, we have a group Slack channel (#devoworm) in the OpenWorm team, a group website, and a Github repository.
+For the uninitiated, the DevoWorm group has a multifaceted set of interests.</description>
+    </item>
+    
+    <item>
+      <title>Finding Your Inner Modeler (Part II)</title>
+      <link>https://devoworm.github.io/Blogs/posts/devowormpublications/blog12/</link>
+      <pubDate>Thu, 30 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://devoworm.github.io/Blogs/posts/devowormpublications/blog12/</guid>
+      <description>Last year, I attended a workshop at the University of Illinois-Chicago called &amp;ldquo;Finding Your Inner Modeler&amp;rdquo;. Sponsored by the NSF, FYIM is meant to bring together biologists and modelers and to foster collaborations between the two. There were many interesting talks over the course of two days, including plant biology, biochemical kinetics, and (of course) various types of computational and statistical model [1].
+This year was the second installment of FYIM, and this time I was chosen for a platform presentation.</description>
+    </item>
+    
+    <item>
+      <title>OpenWorm: Royal Society B special issue now live!</title>
+      <link>https://devoworm.github.io/Blogs/posts/devowormpublications/blog13/</link>
+      <pubDate>Fri, 10 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://devoworm.github.io/Blogs/posts/devowormpublications/blog13/</guid>
+      <description>Worm images courtesy of the OpenWorm browser (Drs. Christian Grove and Padraig Gleeson) Regular readers of this blog might recall that the OpenWorm Foundation spearheaded a workshop (From Connectome to Behavior) at the Royal Society (London) in January 2018. This workshop generated a lot of social media content and internal (to OpenWorm Slack) discussion of the presented topics.
+Since then, the participants have been hard at work putting together a special issue (now live in Royal Society B) that presents in more detail what was discussed at the meeting.</description>
+    </item>
+    
+    <item>
+      <title>Things that Just Happened in London.....</title>
+      <link>https://devoworm.github.io/Blogs/posts/devowormpublications/blog14/</link>
+      <pubDate>Thu, 01 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://devoworm.github.io/Blogs/posts/devowormpublications/blog14/</guid>
+      <description>This week, the Royal Society is hosting a workshop called &amp;ldquo;From Connectome to Behavior&amp;rdquo;, hosted by the OpenWorm Foundation. A program can be found here.
+The Monday and Tuesday sessions included talks by OpenWorm senior contributors as well as mathematical, biological, and engineering researchers from around the world (including John White, a C. elegans research legend). Fortunately, you can get a taste for the topical diversity on the OpenWorm Twitter feed, and from the screenshots below.</description>
+    </item>
+    
+    <item>
+      <title>&#39;Hello World&#39;, project version</title>
+      <link>https://devoworm.github.io/Blogs/posts/devowormpublications/blog15/</link>
+      <pubDate>Mon, 05 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://devoworm.github.io/Blogs/posts/devowormpublications/blog15/</guid>
+      <description>The DevoWorm group has two new students that will be working over this summer on topics in computational embryogenesis. To begin their projects, I have asked each student to prepare a short presentation based on their original proposal, which serves as a variant of the traditional &amp;ldquo;Hello World&amp;rdquo; program. We will then compare this talk with one they will give at the end of the summer to evaluate their learning and accomplishment trajectory.</description>
+    </item>
+    
+    <item>
+      <title>OpenWorm Blog: Announcing the OpenWorm Open House 2016</title>
+      <link>https://devoworm.github.io/Blogs/posts/devowormpublications/blog16/</link>
+      <pubDate>Thu, 20 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://devoworm.github.io/Blogs/posts/devowormpublications/blog16/</guid>
+      <description>The content is being cross-posted from the OpenWorm blog, and will be updated periodically.
+Hello Everybody!
+We want to announce our first Open House for 2016 that will happen on October 25th from 10:30am to 4pm EST (UTC-4) (check here for your timezone), so mark the date on your calendars! The event will be live streamed at this link.
+If you were waiting for an opportunity to look at the recent progress we’ve made across all the projects, this is your chance.</description>
+    </item>
+    
+    <item>
+      <title>Upcoming Update on DevoWorm Project to OpenWorm</title>
+      <link>https://devoworm.github.io/Blogs/posts/devowormpublications/blog17/</link>
+      <pubDate>Wed, 06 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://devoworm.github.io/Blogs/posts/devowormpublications/blog17/</guid>
+      <description>Next Friday (4/15) at 9:00am Pacific Time, I will be presenting an update to the OpenWorm Journal Club on advances in the DevoWorm subproject (How a Worm Develops). It has been a year and a half since the previous update [1], and we have made significant progress on a number of fronts:
+  as of right now, our group consists of myself, Richard Gordon, Tom Portegys, Steve McGrew, and Gabriel Pascualy.</description>
+    </item>
+    
+    <item>
+      <title>Posters at the International C. elegans Meeting</title>
+      <link>https://devoworm.github.io/Blogs/posts/devowormpublications/blog18/</link>
+      <pubDate>Tue, 30 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://devoworm.github.io/Blogs/posts/devowormpublications/blog18/</guid>
+      <description>UCLA and Los Angeles. COURTESY: UCLA Department of Physiology. I just returned from the International C. elegans Meeting in Los Angeles (being hosted on the UCLA campus). There are posters, talks, workshops, and much fun to be had. I will give a more detailed discussion of some of the sessions in a future post.
+Some people (not me) took turns wearing the &#34;worm suit&#34;. COURTESY: #worm15 Twitter feed. There were several days of talks and posters, plus the famous C.</description>
+    </item>
+    
+    <item>
+      <title>C. elegans as an Evolutionary Model</title>
+      <link>https://devoworm.github.io/Blogs/posts/devowormpublications/blog19/</link>
+      <pubDate>Sun, 26 Oct 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://devoworm.github.io/Blogs/posts/devowormpublications/blog19/</guid>
+      <description>In the past year, I have been starting to use the nematode Caenorhabditis elegans (roundworm) as a model organism. Not only have I helped to establish the DevoWorm project, I am also starting to engage with C. elegans in a wet-lab setting. As a consequence, I am learning about multiple facets of C. elegans biology. C. elegans is a well-established model organism, having well-characterized neural and developmental systems. The nervous system contains just 302 cells, with a full accounting of the connectome (synaptic connections) [1].</description>
+    </item>
+    
+    <item>
+      <title>Upcoming DevoWorm talk to the OpenWorm group</title>
+      <link>https://devoworm.github.io/Blogs/posts/devowormpublications/blog20/</link>
+      <pubDate>Sun, 10 Aug 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://devoworm.github.io/Blogs/posts/devowormpublications/blog20/</guid>
+      <description>This Friday (9/12) at 9am PDT, I will be presenting a talk to the OpenWorm consortium Journal Club on the DevoWorm project. For those of you who are unfamiliar, DevoWorm is a collaborative attempt to simulate and theoretically re-interpret C. elegans development.
+Cover slide with a list of the DevoWorm collaborators, circa September 2014. The structure of the talk will loosely follow the white paper, with some additional theoretical and translational information.</description>
+    </item>
+    
+    <item>
+      <title>Now Announcing the DevoWorm Project</title>
+      <link>https://devoworm.github.io/Blogs/posts/devowormpublications/blog21/</link>
+      <pubDate>Tue, 03 Jun 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://devoworm.github.io/Blogs/posts/devowormpublications/blog21/</guid>
+      <description>Over the past few months, myself and several colleagues (Stephen Larson, Dick Gordon, Steve McGrew, Mark Watts, and possibly Jack Tuszynski) have begun to hash out the details of a new project called DevoWorm. The project white paper, which lays out our goals and the associated technical details, can be found here. This is an extension of the existing OpenWorm project [1], which is an attempt to digitally emulate a relatively simple organism (C.</description>
     </item>
     
   </channel>
