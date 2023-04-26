@@ -335,16 +335,6 @@ Our virtual discussion group (DevoWormML) has been exploring a number of topics 
       <description>Welcome to Open Data Day 2019, sponsored by Orthogonal Research and Education Laboratory! This year we are introducing an open data repository called DevoZoo. Based on work going on in the DevoWorm group, DevoZoo include various primary, secondary, and tertiary datasets from a variety of developing organisms (all characterizing embryogenesis). There are several other tabs on the site, including references on C. elegans developmental biology (the embryo image), a collection of Jupyter notebooks (DevoNotes), methods developed within the DevoWorm group (DevoMethods), and an educational curriculum (DevoWormU).</description>
     </item>
     
-    <item>
-      <title>About</title>
-      <link>https://devoworm.github.io/Blogs/about/</link>
-      <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://devoworm.github.io/Blogs/about/</guid>
-      <description>Written in Go, Hugo is an open source static site generator available under the Apache Licence 2.0. Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
-Hugo makes use of a variety of open source projects including:
- https://github.</description>
-    </item>
     
     <item>
       <title>January is DevoWorm month!</title>
